@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="120" height="80" tilewidth="8" tileheight="8" nextobjectid="73">
+ <tileset firstgid="1" name="Common" tilewidth="8" tileheight="8" tilecount="4096" columns="64">
+  <image source="Common.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="4097" name="Furniture" tilewidth="8" tileheight="8" tilecount="1024" columns="32">
+  <image source="Furniture-test.png" width="256" height="256"/>
+ </tileset>
+ <layer name="ground" width="120" height="80">
+  <data encoding="base64" compression="zlib">
+   eJzt0UERgDAAA8HCYKKqsYyHPpoO2ccauJv3GBMAAAAAAAAAAPiV53DvtSbd9RTpf/7666+//vrbKP3PX3/99ddffxul//nrr7/++utvo/Q/f7v/rkp3PUX6g7/++uuvv/42Sn/w119//fXX30bpD/7666+//vrbKP3BX3/99ddffxulP/jrr7/++utvo/QHf/31119/AQAAAAAAAAAAAGCfD+i1tgI=
+  </data>
+ </layer>
+ <layer name="wall" width="120" height="80">
+  <data encoding="base64" compression="zlib">
+   eJzt2t1Kw0AUReEpNBAfq2AVwZcKNv6AL+WF7+V4IUVI02Gm2TnZrA8GpSQ9kUWFTJoSAAAAlvSxT+nUsba0hrw+92V9h8LjEMuhKztuV3gcYqGvN/p6o683+nqjrzf6eqOvN/p6o683+nqjr7dofa89p5oyd/x9n9KxP/98yOtx5rW/32/5HKf0Gc4SovWN/H9irOy05t9E33Lf9G0WuW9XeW301c+pcaRvs8h9D33defTVz6kx0LdZ5L5f9G0Wue/urvI8+srn1OD+t13kvs73v6V7cS3nzr1HBLX3v7X7mrd4Lz6/5bj/bRe975jXa15veb1PXOs4cQx99XOU6Kufo0Rf/Rwl+urnKNFXP0eJvvo5SvTVz1Gir36OEn31c5To+3/OtT3VS995rdnTLTmnZd6J/atV5ijRVz9Hib7e6OuNvt7o642+3uirn6NEX/0cJfrq5yjRVz9Hib76OUr01c9Rou/ZU57zUvhcZivrmb5YCH290dcbfb3R1xt9vdHXG3290dcbfb3R1xt9vdHXG3290dcbfb2V9v197j5seE1Z+5oUa83vFgAAAAAufgAKv/aJ
+  </data>
+ </layer>
+ <layer name="furniture" width="120" height="80">
+  <data encoding="base64" compression="zlib">
+   eJzt2rsynGEcx/HHaZdurYZyndNGI2UcgjZppHSWliZKRDQqGkoE12GJDK4ijoOb8J1xAZp93nfed76fmW+9O/Pb4pn5bwiSJEmSJEmSJCWjXAqhrZT2t8i/qdYQpmmGZmmO5mmhNe7nfmTbAfeNbpUd12idftEG/abNyPt+Zdtv7hvdPjse0CH9oSM6ppPI+y6x7bL7RnfKjlU6o3P6Sxf0L/K+22y7477R/WfHG7qlO7qnB3qMvK+SUVcOoZ4aqJGaqEDFctrfTLVQYcdO6qJu6qFe6nNfqaYOeI8c+ibJrSrbnrmvJElSdJe8ua7o2rdXLj2x6zO9uG/NpHU3VTLSupsqGWndTZWM9+6mW4W3lE3v3U2T2NffUDzeTfPNu6kkSZIkSZIkScq69lIIHf7/KrcG2faT++bWJNt+d9/c+sm2K+6bW7tsu+e+kiRJkiRJkiRJqqG6Ugj11ECN1EQFKlIztXifyrQK+3VSF3VTD/VSH/XTB/fNtM/sN0TDNEKj9IXGaJwm3DfTpthvmmZoluZonhZokX64ryRJkiRJkqSMeQWvBlM7
+  </data>
+ </layer>
+ <objectgroup name="objects">
+  <object id="7" type="chair" x="384" y="200.333" width="15.67" height="15.3333">
+   <properties>
+    <property name="_seeable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="9" type="furniture" x="359.667" y="223.667" width="57" height="57">
+   <properties>
+    <property name="_seeable" type="bool" value="true"/>
+    <property name="_shape" value="circle"/>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="16" type="furniture" x="759.227" y="94.9697" width="57" height="57">
+   <properties>
+    <property name="_seeable" type="bool" value="true"/>
+    <property name="_shape" value="circle"/>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="17" type="furniture" x="784" y="520" width="72.3333" height="32">
+   <properties>
+    <property name="_seeable" type="bool" value="true"/>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="19" type="wall" x="40.0313" y="584" width="375.423" height="8">
+   <properties>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="21" type="wall" x="32" y="48.1875" width="8" height="543.815">
+   <properties>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="22" type="wall" x="32.0625" y="40" width="879.836" height="8">
+   <properties>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="23" type="wall" x="912" y="40.0606" width="8" height="543.835">
+   <properties>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="25" type="wall" x="455.333" y="584" width="464.696" height="8">
+   <properties>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="27" type="wall" x="240.273" y="448" width="423.613" height="8">
+   <properties>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="29" type="wall" x="240" y="399.761" width="8" height="47.9886">
+   <properties>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="30" type="wall" x="240" y="152" width="8" height="208">
+   <properties>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="31" type="wall" x="248.333" y="152" width="55.3333" height="8">
+   <properties>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="32" type="wall" x="343.913" y="152" width="56.0453" height="8">
+   <properties>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="33" type="wall" x="511.958" y="152" width="160.072" height="8">
+   <properties>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="35" type="wall" x="151.99" y="240" width="87.6771" height="8">
+   <properties>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="36" type="wall" x="40.1238" y="240" width="71.8762" height="7.66667">
+   <properties>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="37" type="wall" x="672" y="240.333" width="103.667" height="7">
+   <properties>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="38" type="wall" x="815.956" y="240" width="95.9575" height="8">
+   <properties>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="39" type="wall" x="664" y="160" width="8" height="295.964">
+   <properties>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="40" type="wall" x="583.758" y="336.333" width="79.7273" height="7.33333">
+   <properties>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="41" type="wall" x="360" y="336" width="72.2727" height="8">
+   <properties>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="42" type="wall" x="464" y="336" width="71.6667" height="8">
+   <properties>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="43" type="wall" x="248.375" y="336" width="63.2917" height="8">
+   <properties>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="44" type="wall" x="624.125" y="256" width="39.375" height="8">
+   <properties>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="45" type="wall" x="552" y="256" width="39.75" height="8">
+   <properties>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="46" type="wall" x="552" y="223.833" width="8" height="31.9167">
+   <properties>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="48" type="furniture" x="646.75" y="208.5" width="17.25" height="14.5">
+   <properties>
+    <property name="_seeable" type="bool" value="true"/>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="49" type="furniture" x="592.5" y="160.25" width="14.25" height="11.25">
+   <properties>
+    <property name="_seeable" type="bool" value="true"/>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="56" type="wall" x="552" y="160" width="7.75" height="32">
+   <properties>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="57" type="glass" x="553.5" y="192.25" width="4.5" height="31.5">
+   <properties>
+    <property name="_seeable" type="bool" value="true"/>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="59" type="glass" x="400" y="154" width="111.75" height="3.5">
+   <properties>
+    <property name="_seeable" type="bool" value="true"/>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="60" type="glass" x="312.25" y="338" width="47.5227" height="3.95455">
+   <properties>
+    <property name="_seeable" type="bool" value="true"/>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="61" type="glass" x="536" y="337.818" width="47.6364" height="4">
+   <properties>
+    <property name="_seeable" type="bool" value="true"/>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="62" x="647.875" y="382" width="15.5" height="27.75">
+   <properties>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="63" type="furniture" x="40.25" y="103" width="15.5" height="27.75">
+   <properties>
+    <property name="_seeable" type="bool" value="true"/>
+    <property name="_unpassable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="65" type="door5" x="432.625" y="338.125" width="30.25" height="2.625">
+   <properties>
+    <property name="_junction" value="left"/>
+   </properties>
+  </object>
+  <object id="66" type="door5" x="416.25" y="586" width="39" height="3">
+   <properties>
+    <property name="_junction" value="left"/>
+   </properties>
+  </object>
+  <object id="67" type="door5" x="241.818" y="360.182" width="3.27273" height="38.8182">
+   <properties>
+    <property name="_junction" value="up"/>
+   </properties>
+  </object>
+  <object id="68" type="door5" x="112.091" y="242.091" width="39.4716" height="2.81818">
+   <properties>
+    <property name="_junction" value="left"/>
+   </properties>
+  </object>
+  <object id="69" x="592.125" y="258.125" width="31.125" height="2.75">
+   <properties>
+    <property name="_junction" value="left"/>
+   </properties>
+  </object>
+  <object id="70" type="door5" x="304" y="154.125" width="39.4457" height="2.625">
+   <properties>
+    <property name="_junction" value="left"/>
+   </properties>
+  </object>
+  <object id="71" type="door5" x="775.818" y="242" width="39.1576" height="2.81818">
+   <properties>
+    <property name="_junction" value="left"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

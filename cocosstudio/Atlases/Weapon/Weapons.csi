@@ -1,0 +1,44 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Weapons" Type="Plist" ID="99259861-d216-4078-aec4-5cfadc1dbb75" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Weapon/9mm.png" />
+      <FilePathData Path="Atlases/Weapon/Acid.png" />
+      <FilePathData Path="Atlases/Weapon/Axe.png" />
+      <FilePathData Path="Atlases/Weapon/Bat.png" />
+      <FilePathData Path="Atlases/Weapon/BigPipe.png" />
+      <FilePathData Path="Atlases/Weapon/BottleBroken.png" />
+      <FilePathData Path="Atlases/Weapon/BottleWeapon.png" />
+      <FilePathData Path="Atlases/Weapon/Butterfly.png" />
+      <FilePathData Path="Atlases/Weapon/Chain.png" />
+      <FilePathData Path="Atlases/Weapon/Chainsaw.png" />
+      <FilePathData Path="Atlases/Weapon/Club.png" />
+      <FilePathData Path="Atlases/Weapon/DoubleBarrel.png" />
+      <FilePathData Path="Atlases/Weapon/Famae.png" />
+      <FilePathData Path="Atlases/Weapon/FlameThrower.png" />
+      <FilePathData Path="Atlases/Weapon/Hammer.png" />
+      <FilePathData Path="Atlases/Weapon/Heavy.png" />
+      <FilePathData Path="Atlases/Weapon/Kalashnikov.png" />
+      <FilePathData Path="Atlases/Weapon/Knife.png" />
+      <FilePathData Path="Atlases/Weapon/M16.png" />
+      <FilePathData Path="Atlases/Weapon/Machete.png" />
+      <FilePathData Path="Atlases/Weapon/Magnum.png" />
+      <FilePathData Path="Atlases/Weapon/Mendoza.png" />
+      <FilePathData Path="Atlases/Weapon/MP5.png" />
+      <FilePathData Path="Atlases/Weapon/NailGun.png" />
+      <FilePathData Path="Atlases/Weapon/Pipe.png" />
+      <FilePathData Path="Atlases/Weapon/PipeBig.png" />
+      <FilePathData Path="Atlases/Weapon/ShardBlade.png" />
+      <FilePathData Path="Atlases/Weapon/Shotgun.png" />
+      <FilePathData Path="Atlases/Weapon/Silencer.png" />
+      <FilePathData Path="Atlases/Weapon/Skateboard.png" />
+      <FilePathData Path="Atlases/Weapon/SniperRifle.png" />
+      <FilePathData Path="Atlases/Weapon/Stick.png" />
+      <FilePathData Path="Atlases/Weapon/Sword.png" />
+      <FilePathData Path="Atlases/Weapon/Taser.png" />
+      <FilePathData Path="Atlases/Weapon/Uzi.png" />
+      <FilePathData Path="Atlases/Weapon/ToothBrush.png" />
+    </ImageFiles>
+    <MaxSize Width="128" Height="128" />
+  </Content>
+</PlistInfoProjectFile>
