@@ -30,9 +30,9 @@ function Player:ctor(args)
     if self._bodyShape.shape == "rect" then
         body = cc.PhysicsBody:createBox(self._bodyShape.value, PLAYER_MATERIAL)
     elseif self._bodyShape.shape == "circle" then
-        body = cc.PhysicsBody:createBox(self._bodyShape.value, PLAYER_MATERIAL)
+        body = cc.PhysicsBody:createCircle(self._bodyShape.r, PLAYER_MATERIAL)
     else
-        body = cc.PhysicsBody:createBox(16, PLAYER_MATERIAL)
+        body = cc.PhysicsBody:createCircle(12, PLAYER_MATERIAL)
     end
     body:setContactTestBitmask(PLAYER_CONTACT_MASK)
     body:setCategoryBitmask(PLAYER_CATEGORY_MASK)

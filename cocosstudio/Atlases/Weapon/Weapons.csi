@@ -1,6 +1,6 @@
 <PlistInfoProjectFile>
-  <PropertyGroup Name="Weapons" Type="Plist" ID="99259861-d216-4078-aec4-5cfadc1dbb75" Version="3.10.0.0" />
-  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+  <PropertyGroup Name="Weapons" Type="Plist" ID="7dd2bf1a-2efc-4a22-a6c8-ea2ce515a1e6" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
     <ImageFiles>
       <FilePathData Path="Atlases/Weapon/9mm.png" />
       <FilePathData Path="Atlases/Weapon/Acid.png" />
@@ -36,9 +36,9 @@
       <FilePathData Path="Atlases/Weapon/Stick.png" />
       <FilePathData Path="Atlases/Weapon/Sword.png" />
       <FilePathData Path="Atlases/Weapon/Taser.png" />
-      <FilePathData Path="Atlases/Weapon/Uzi.png" />
       <FilePathData Path="Atlases/Weapon/ToothBrush.png" />
+      <FilePathData Path="Atlases/Weapon/Uzi.png" />
     </ImageFiles>
-    <MaxSize Width="128" Height="128" />
+    <MaxSize Width="256" Height="256" />
   </Content>
 </PlistInfoProjectFile>

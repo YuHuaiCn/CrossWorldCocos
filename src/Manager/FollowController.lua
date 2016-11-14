@@ -98,21 +98,23 @@ function FollowController:touchBegin(touch, event)
     else
         -- not in follow panel
         local lcPoint = landLayer:convertToNodeSpace(touchPoint)
-        local wpnNearby = {}
-        -- 半径75之外的触点不认为是PickUp点
+        local wpnIndex
+        -- 修复：隔墙的武器不能捡
+        -- 半径150之外的触点不认为是PickUp点
         if cc.pDistanceSQ(lcPoint, cc.p(hero:getPosition())) < 150 * 150 then
             local wpnList = DM:getValue("LandedWeapons")
             wpnList = wpnList or {}
-            for _, spWpn in ipairs(wpnList) do
+            for i, spWpn in ipairs(wpnList) do
+                -- 距离touchPoint 15以内，是否存在武器
                 local dst = cc.pDistanceSQ(lcPoint, cc.p(spWpn:getPosition()))
                 if dst <= 225 then
-                    wpnNearby[#wpnNearby + 1] = spWpn
+                    wpnIndex = i
                 end
             end
         end
-        if #wpnNearby >= 1 then
+        if wpnIndex then
             touch._type = POINT_TYPE_PICKUP
-            hero:pickupWeapon(touchPoint)
+            hero:pickupWeapon(wpnIndex)
         else
             if hero:startAttack(touchPoint) then 
                 touch._type = POINT_TYPE_ATTACK

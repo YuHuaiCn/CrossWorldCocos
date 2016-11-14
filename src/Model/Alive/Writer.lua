@@ -1,7 +1,8 @@
 
 Writer = class("Writer", Player)
 
-Writer._bodyShape = {shape = "rect", value = {width = 15, height = 26}}
+Writer._bodyShape = {shape = "circle", r = 12}
+-- Writer._bodyShape = {shape = "rect", value = {width = 15, height = 26}}
 
 -- 存储动画
 Writer._animPool = {}
@@ -94,33 +95,18 @@ function Writer:initStateMachine()
 								print("onpickup: invalid argument") 
 								return 
 							end
-							local wpnList = DM:getValue("LandedWeapons")
-							local ndWeapon = wpnList[event.args[1]]
+							local ndWeapon = DM:getValue("LandedWeapons")[event.args[1]]
 							-- 丢弃原先的武器
 							if self._weapon and self._weapon.__cname ~= "Punch" then
-								-- 切换weapon父节点
-								self._weapon:retain()
-								self._weapon:removeFromParent()
-								DM:getValue("LandLayer"):addChild(self._weapon)
-    							wpnList[#wpnList + 1] = self._weapon
-								self._weapon:throw(cc.p(self:getPosition()), self:getRotation())
-								self._weapon = nil
-							end
-							if ndWeapon then
-								-- 捡起现在的武器
-								-- 切换weapon父节点
-								ndWeapon:retain()
-								ndWeapon:removeFromParent()
-								self:addChild(ndWeapon)
-				    			ndWeapon:pickedUp()
-    							table.remove(wpnList, event.args[1])
-								if event.from == "walk" then
-									self._weapon = ndWeapon
-									self:endFollow()
-								elseif event.from == "idle" then
-									self._weapon = ndWeapon
-									self.StateMachine:doEvent("Idle")
-								end
+								self._weapon:throw(self)
+							end	
+			    			ndWeapon:pickedUp(self)
+							if event.from == "walk" then
+								self._weapon = ndWeapon
+								self:endFollow()
+							elseif event.from == "idle" then
+								self._weapon = ndWeapon
+								self.StateMachine:doEvent("Idle")
 							end
 						end,
 			onattack =	function(event)
@@ -269,46 +255,43 @@ function Writer:runAttackAnim(loop)
 	AM:runAnimation(self._spBody)
 end
 
-function Writer:pickupWeapon(touchPoint)
+function Writer:pickupWeapon(wpnIndex)
+	if not wpnIndex then
+		print("Writer:pickupWeapon: invalid argument")
+		return false
+	end
 	if self.StateMachine:cannotDoEvent("Pickup") then
 		return false
 	end
-	local lcTouchPoint = DM:getValue("LandLayer"):convertToNodeSpace(touchPoint)
 	local selfPoint = cc.p(self:getPosition())
     local wpnList = DM:getValue("LandedWeapons")
-    wpnList = wpnList or {}
-    -- 获得TouchPoint临近的一个武器
-    local wpnNearby
-    for i, spWpn in ipairs(wpnList) do
-        local dst = cc.pDistanceSQ(lcTouchPoint, cc.p(spWpn:getPosition()))
-        if dst <= 225 then
-            wpnNearby = {index = i, tar = spWpn}
-            break
-        end
+    local spWpn = wpnList[wpnIndex]
+    if not spWpn then
+		print("Writer:pickupWeapon: no wpnList[wpnIndex]")
+		return false
     end
-    if wpnNearby then
-    	local dst2wp = cc.pDistanceSQ(selfPoint, cc.p(wpnNearby.tar:getPosition()))
-    	-- 距离太远则需要走过去
-    	if dst2wp >= 225 then
-    		self:startFollow(touchPoint)
-    		local entry
-    		entry = Scheduler:scheduleScriptFunc(function()
-    					local v = self:getPhysicsBody():getVelocity()
-    					local absV
-    					if v then
-    						absV = cc.pLengthSQ(v)
-    					end
-    					if absV < 4 then
-    						if entry then
-    							Scheduler:unscheduleScriptEntry(entry)
-    						end
-    						self.StateMachine:doEvent("Pickup", wpnNearby.index)
-    					end
-    				end, 0, false)
-    	else
-    		self.StateMachine:doEvent("Pickup", wpnNearby.index)
-    	end
-    	return true
-    end
-    return false
+    local wpnPos = cc.p(spWpn:getPosition())
+	local dst2wp = cc.pDistanceSQ(selfPoint, wpnPos)
+	-- 距离太远则需要走过去
+	if dst2wp >= 225 then
+		self:startFollow(DM:getValue("LandLayer"):convertToWorldSpace(wpnPos))
+		local entry
+		entry = Scheduler:scheduleScriptFunc(function()
+					local v = self:getPhysicsBody():getVelocity()
+					local absV
+					if v then
+						absV = cc.pLengthSQ(v)
+					end
+					if absV < 4 then
+						if entry then
+							Scheduler:unscheduleScriptEntry(entry)
+						end
+						self.StateMachine:doEvent("Pickup", wpnIndex)
+					end
+				end, 0, false)
+	else
+		self.StateMachine:doEvent("Pickup", wpnIndex)
+	end
+	return true
+
 end

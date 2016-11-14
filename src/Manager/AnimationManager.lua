@@ -213,13 +213,13 @@ end
 
 -- 不要主动调用这个函数，应该使用weaponSpr:runAnimLandedWeapon()
 function AnimationManager:runAnimLandedWeapon(weaponSpr)
-    local posX, posY = weaponSpr:getPosition()
+    local r = math.rad(weaponSpr:getRotation())
     local body = weaponSpr:getChildByName("Body")
     local bg = weaponSpr:getChildByName("Background")
     bg:setColor(cc.c3b(0, 0, 0))
     bg:setOpacity(128)
-    bg:setPosition(weaponSpr:convertToNodeSpace(cc.p(posX, posY - 2)))
-    local action = cc.MoveBy:create(0.85, weaponSpr:convertToNodeSpace(cc.p(posX, posY + 2)))
+    -- 疑问：这里使用坐标转换会出错，为啥？
+    local action = cc.MoveBy:create(0.85, cc.p(-4*math.sin(r), 2*math.cos(r)))
     local reAction = action:reverse()
     local seq = cc.Sequence:create(action, reAction)
     local repAct = cc.RepeatForever:create(seq)

@@ -15,6 +15,7 @@ Alive._moveInertialTime  = 0.3	       -- s time cost from static to move and mov
 Alive._viewDist          = 20          -- m
 Alive._viewAngle         = PI / 2      -- radian
 
+
 Alive.MoveType = {
 	WALK = 1,
 	RUN  = 2,
