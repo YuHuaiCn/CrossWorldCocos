@@ -14,8 +14,8 @@ animConfig.Player = {}
 		animConfig.Player.Writer.Attack = {}
 			animConfig.Player.Writer.Attack.Punch = {gap = 5,  offset = {10, 0}}
 			animConfig.Player.Writer.Attack.Nmm   = {gap = 10, offset = {12, 0}}
-			animConfig.Player.Writer.Attack.M16   = {gap = 5,  offset = {8, 0}}
-			animConfig.Player.Writer.Attack.Knife = {gap = 3,  offset = {8, -8}}
+			animConfig.Player.Writer.Attack.M16   = {gap = 4,  offset = {8, 0}}
+			animConfig.Player.Writer.Attack.Knife = {gap = 2,  offset = {8, -8}}
 
 
 	animConfig.Player.Nicke = {}

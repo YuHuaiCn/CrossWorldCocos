@@ -2,7 +2,7 @@
 local BaseScene = class("BaseScene", function (...)
 	local scene = cc.Scene:createWithPhysics()
 	local world = scene:getPhysicsWorld()
-	world:setDebugDrawMask(cc.PhysicsWorld.DEBUGDRAW_ALL)
+	--world:setDebugDrawMask(cc.PhysicsWorld.DEBUGDRAW_ALL)
 	world:setSpeed(50)
 	scene:getPhysicsWorld():setGravity(cc.p(0, 0))
 	DM:storeValue("PhysicsWorld", world)

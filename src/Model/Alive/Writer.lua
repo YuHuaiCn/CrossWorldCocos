@@ -110,10 +110,19 @@ function Writer:initStateMachine()
 							end
 						end,
 			onattack =	function(event)
-							self:runAttackAnim()
+							local function callback()
+								
+							end
+							AdM:playGunEffect(self._weapon.__cname)
+							self:runAttackAnim(callback)
 						end,
 			onattacking  =	function(event)
-								self:runAttackAnim(true)
+								local callback
+								callback = function ()
+									AdM:playGunEffect(self._weapon.__cname)
+									self:runAttackAnim(callback)
+								end
+								callback()
 							end,
 
 			onIdle   = function(event) end,
@@ -234,11 +243,10 @@ end
 
 -- 更新self._animation中的动画
 local isFirstAttack = true
-function Writer:runAttackAnim(loop)
-	loop = loop or false
+function Writer:runAttackAnim(callback)
 	local animName = "PlayerWriterAttack" .. self._weapon.__cname
 	-- loop == false则播放一次之后就会被释放掉
-	AM:addAnimation(self._spBody, animName, loop)
+	AM:addAnimation(self._spBody, animName, false, callback)
 	-- 需要反转X轴获得第二个动画
 	if self._weapon._type == "Melee" then
 		-- 切换动画1和动画2

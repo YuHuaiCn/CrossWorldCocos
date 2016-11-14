@@ -1,6 +1,4 @@
 
-require "Model.GlobalData"
-
 require "Model.Alive.Alive"
 require "Model.Alive.Player"
 require "Model.Alive.Writer"

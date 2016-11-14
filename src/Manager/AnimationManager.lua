@@ -1,6 +1,6 @@
 --[[
 
-addAnimation(node, animName, loop = false)
+addAnimation(node, animName, loop = false, acf = nil)
     det: 为node添加动画，初始动画速度为0
     arg: [1]: node [2]: 动画名由动画全路径组成 eg:PlayerWriterWalkUnarmed [3]: 是否循环播放
     ret: [1]: actSpeed动画 [2]: 初始帧动画
@@ -16,7 +16,7 @@ runAnimation(node, speed = 1)
 
 AnimationManager.__cname = "AnimationManager"
 
-AnimationManager._animConfig = require "Model.AnimationData"
+AnimationManager._animConfig = require "Manager.AnimationData"
 
 local frameCache = cc.SpriteFrameCache:getInstance()
 
@@ -142,7 +142,7 @@ end
 
 -------------------------------------------class function-------------------------------------------
 -- 优化：暂存animation
-function AnimationManager:addAnimation(sprite, animName, loop)
+function AnimationManager:addAnimation(sprite, animName, loop, callback)
     loop = loop or false
     local path = getPathListFromString(animName)
     local frameList, tarPath = getFramesFromPath(path)
@@ -163,6 +163,11 @@ function AnimationManager:addAnimation(sprite, animName, loop)
         animation:setRestoreOriginalFrame(true)
         -- crate action
         local action = cc.Animate:create(animation)
+        -- 添加回调函数
+        if callback then
+            local acf = cc.CallFunc:create(callback)
+            action = cc.Sequence:create(action, acf)
+        end
         if loop then
             action = cc.RepeatForever:create(action)
         end
