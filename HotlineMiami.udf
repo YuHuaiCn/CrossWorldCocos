@@ -30,7 +30,10 @@
     </Item>
     <Item Key="TabsParamsKey">
       <Value ctype="TabsInfo">
-        <ActiveDocument />
+        <OpenedDocuments>
+          <FilePathData Path="Atlases/Weapon/Weapons.csi" />
+        </OpenedDocuments>
+        <ActiveDocument Path="Atlases/Weapon/Weapons.csi" />
       </Value>
     </Item>
   </Properties>

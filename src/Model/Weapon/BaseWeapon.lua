@@ -77,6 +77,7 @@ function BaseWeapon:pickedUp(alive)
 	-- 删除子节点和PhysicsBody
 	self:removeChildByName("Background")
 	self:removeChildByName("Body")
+	AdM:playEffectByName("PickUpWeapon")
 	local body = self:getPhysicsBody()
 	if body then
 		self:removeComponent(body)
@@ -104,6 +105,7 @@ function BaseWeapon:throw(alive)
 	local velocity = self:getThrowVelocity(d)
 	self:addPhysicsBody()
 	self:setPosition(pos)
+	AdM:playEffectByName("Throw")
 	local pyBody = self:getPhysicsBody()
 	pyBody:setVelocity(velocity)
 	local entry

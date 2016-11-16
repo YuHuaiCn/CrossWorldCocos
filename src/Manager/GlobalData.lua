@@ -26,6 +26,7 @@ cc.exports.TMM = {}
 cc.exports.Director  = cc.Director:getInstance()
 cc.exports.Scheduler = Director:getScheduler()
 cc.exports.EventDispatcher = Director:getEventDispatcher()
+cc.exports.FileUtils = cc.FileUtils:getInstance()
 cc.exports.CurrentHero = {}
 cc.exports.VisibleSize = Director:getVisibleSize()
 

@@ -59,6 +59,7 @@ function Writer:initStateMachine()
 			onbeforeAttacking = function(event) end,
 
 			onleaveidle   =	function(event)
+
 								self._spBody:stopAllActions()
 							end,
 			onleavewalk   =	function(event)
@@ -106,7 +107,9 @@ function Writer:initStateMachine()
 								self:endFollow()
 							elseif event.from == "idle" then
 								self._weapon = ndWeapon
-								self.StateMachine:doEvent("Idle")
+								if self.StateMachine:canDoEvent("Idle") then
+									self.StateMachine:doEvent("Idle")
+								end
 							end
 						end,
 			onattack =	function(event)
@@ -146,7 +149,9 @@ function Writer:startAttack(touchPoint)
 					-- Turn动画执行完之后进行攻击
 					if self.StateMachine:getState() == "turn" and
 					   self:getNumberOfRunningActions() == 0 then
-						self.StateMachine:doEvent("Attack")
+						if self.StateMachine:canDoEvent("Attack") then
+							self.StateMachine:doEvent("Attack")
+						end
 					elseif self.StateMachine:getState() == "attack" and
 						   self._spBody:getNumberOfRunningActions() == 0 then
 						-- attack到attacking的转换
@@ -155,7 +160,9 @@ function Writer:startAttack(touchPoint)
 						end
 						-- attack动画播放结束还没有调用endAttack()，则转换为attacking状态
 						if self._isAttacking == true then
-							self.StateMachine:doEvent("Attacking")
+							if self.StateMachine:canDoEvent("Attacking") then
+								self.StateMachine:doEvent("Attacking")
+							end
 						end
 					end
 
@@ -195,7 +202,9 @@ end
 function Writer:startFollow(touchPoint)
 	self.super.startFollow(self, touchPoint)
     -- change to state walk
-    self.StateMachine:doEvent("Walk")
+	if self.StateMachine:canDoEvent("Walk") then
+	    self.StateMachine:doEvent("Walk")
+	end
 end
 
 function Writer:updateFollow(touchPoint)
@@ -205,7 +214,9 @@ end
 function Writer:endFollow()
 	self.super.endFollow(self)
     -- change to state idle
-    self.StateMachine:doEvent("Idle")
+	if self.StateMachine:canDoEvent("Idle") then
+    	self.StateMachine:doEvent("Idle")
+    end
 end
 
 local function getWalkAnimName(wepName)
@@ -285,20 +296,21 @@ function Writer:pickupWeapon(wpnIndex)
 		self:startFollow(DM:getValue("LandLayer"):convertToWorldSpace(wpnPos))
 		local entry
 		entry = Scheduler:scheduleScriptFunc(function()
-					local v = self:getPhysicsBody():getVelocity()
-					local absV
-					if v then
-						absV = cc.pLengthSQ(v)
-					end
-					if absV < 4 then
+					local posX, posY = self:getPosition()
+					if math.abs(posX - wpnPos.x) < 10 and
+					   math.abs(posY - wpnPos.y) < 10 then
 						if entry then
 							Scheduler:unscheduleScriptEntry(entry)
 						end
-						self.StateMachine:doEvent("Pickup", wpnIndex)
+						if self.StateMachine:canDoEvent("Pickup") then
+							self.StateMachine:doEvent("Pickup", wpnIndex)
+						end
 					end
 				end, 0, false)
 	else
-		self.StateMachine:doEvent("Pickup", wpnIndex)
+		if self.StateMachine:canDoEvent("Walk") then
+			self.StateMachine:doEvent("Pickup", wpnIndex)
+		end
 	end
 	return true
 

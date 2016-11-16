@@ -14,3 +14,12 @@ frameworks/cocos2d-x/cocos/editor-support/spine/proj.win32/Debug.win32/
 frameworks/runtime-src/proj.win32/CrossWorld.sdf
 frameworks/runtime-src/proj.win32/CrossWorld.opensdf
 frameworks/runtime-src/proj.win32/CrossWorld.v12.suo
+frameworks/runtime-src/proj.android/obj/
+frameworks/runtime-src/proj.android/assets/
+frameworks/cocos2d-x/cocos/platform/android/java/bin/
+frameworks/runtime-src/proj.android/bin/
+frameworks/runtime-src/proj.android/libs/
+frameworks/runtime-src/proj.android/gen/
+frameworks/runtime-src/proj.android/local.properties
+frameworks/cocos2d-x/cocos/platform/android/java/local.properties
+frameworks/cocos2d-x/cocos/platform/android/java/gen/
