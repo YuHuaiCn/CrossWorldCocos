@@ -10,12 +10,6 @@ Player._spBody = nil
 Player._spLeg = nil
 Player._state = 0
 
--- Player.Constant = {}
-
-local PLAYER_CONTACT_MASK   = 0x1
-local PLAYER_CATEGORY_MASK  = 0x1
-local PLAYER_COLLISION_MASK = 0x1
-
 local PLAYER_MATERIAL = {density = 0.1, friction = 0, restitution = 0.1}
 
 function Player:ctor(args)
@@ -34,9 +28,9 @@ function Player:ctor(args)
     else
         body = cc.PhysicsBody:createCircle(12, PLAYER_MATERIAL)
     end
-    body:setContactTestBitmask(PLAYER_CONTACT_MASK)
-    body:setCategoryBitmask(PLAYER_CATEGORY_MASK)
-    body:setCollisionBitmask(PLAYER_COLLISION_MASK)
+    body:setContactTestBitmask(PhysicsMask.PLAYER_CONTACT_MASK)
+    body:setCategoryBitmask(PhysicsMask.PLAYER_CATEGORY_MASK)
+    body:setCollisionBitmask(PhysicsMask.PLAYER_COLLISION_MASK)
     body:setLinearDamping(0.59)
     body:setAngularDamping(10)
     body:setMoment(PHYSICS_INFINITY)

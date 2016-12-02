@@ -12,3 +12,5 @@ require "Model.Weapon.MeleeWeapon.Knife"
 require "Model.Weapon.RangeWeapon.RangeWeapon"
 require "Model.Weapon.RangeWeapon.Nmm"
 require "Model.Weapon.RangeWeapon.M16"
+
+require "Model.Effect.Bullet"

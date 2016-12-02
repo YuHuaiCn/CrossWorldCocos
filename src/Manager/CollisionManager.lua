@@ -28,16 +28,24 @@ function CollisionManager:onContactBegin(contact)
 end
 
 function CollisionManager:onContactPreSolve(contact)
-    print("onContactPreSolve")
+    local nodeA = contact:getShapeA():getBody():getNode()
+    local nodeB = contact:getShapeB():getBody():getNode()
+    local function deal(node)
+        if node and node.__cname == "Bullet" then
+            node:removeFromParent()
+        end
+    end
+    deal(nodeA)
+    deal(nodeB)
     return true
 end
 
 function CollisionManager:onContactPostSolve(contact)
-    print("onContactPostSolve")
+    -- print("onContactPostSolve")
 end
 
 function CollisionManager:onContactSeperate(contact)
-    print("onContactSeperate")
+
 end
 
 CM = CollisionManager

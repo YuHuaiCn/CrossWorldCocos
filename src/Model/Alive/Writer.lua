@@ -117,12 +117,18 @@ function Writer:initStateMachine()
 								
 							end
 							AdM:playGunEffect(self._weapon.__cname)
+							if self._weapon._type == "Range" then
+								self:fireBullet()
+							end
 							self:runAttackAnim(callback)
 						end,
 			onattacking  =	function(event)
 								local callback
 								callback = function ()
 									AdM:playGunEffect(self._weapon.__cname)
+									if self._weapon._type == "Range" then
+										self:fireBullet()
+									end
 									self:runAttackAnim(callback)
 								end
 								callback()
@@ -313,5 +319,8 @@ function Writer:pickupWeapon(wpnIndex)
 		end
 	end
 	return true
+end
 
+function Writer:fireBullet()
+	self._weapon:createBullet(self:getRotation())
 end

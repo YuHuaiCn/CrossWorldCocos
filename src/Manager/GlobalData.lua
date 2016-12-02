@@ -20,6 +20,7 @@ cc.exports.DataManager = {}
 cc.exports.DM = {}
 cc.exports.TiledMapManager = {}
 cc.exports.TMM = {}
+cc.exports.Bullet = {}
 
 
 --------------- Variate ---------------
@@ -32,6 +33,24 @@ cc.exports.VisibleSize = Director:getVisibleSize()
 
 cc.exports.PIXCEL_PER_METER = 35
 cc.exports.POINT_TYPE_JUDGE_TIME = 0.08
+
+cc.exports.PhysicsMask = {
+    WALL_CONTACT_MASK   = 0x108,
+    WALL_CATEGORY_MASK  = 0xFF,
+    WALL_COLLISION_MASK = 0xFF,
+
+	PLAYER_CONTACT_MASK   = 0x08,
+	PLAYER_CATEGORY_MASK  = 0x01,
+	PLAYER_COLLISION_MASK = 0x08,
+
+	WEAPON_CONTACT_MASK   = 0x00,
+	WEAPON_CATEGORY_MASK  = 0x02,
+	WEAPON_COLLISION_MASK = 0x08,
+
+	BULLET_CONTACT_MASK   = 0x101,
+	BULLET_CATEGORY_MASK  = 0x08,
+	BULLET_COLLISION_MASK = 0x01,
+}
 
 ----------------- Enum -----------------
 -- cc.exports

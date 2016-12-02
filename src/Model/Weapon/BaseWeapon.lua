@@ -8,10 +8,6 @@ BaseWeapon._spBody = nil
 BaseWeapon._spBackground = nil
 
 local WEAPON_MATERIAL = {density = 0.1, friction = 0, restitution = 1}
-local WEAPON_CONTACT_MASK   = 0x0
-local WEAPON_CATEGORY_MASK  = 0x2
-local WEAPON_COLLISION_MASK = 0x8
-
 local frameCache = cc.SpriteFrameCache:getInstance()
 
 function BaseWeapon:ctor(...)
@@ -49,9 +45,9 @@ function BaseWeapon:addPhysicsBody()
 	end
 	local contSize = spriteFrame:getRect()
 	local body = cc.PhysicsBody:createBox(contSize, WEAPON_MATERIAL)
-	body:setContactTestBitmask(WEAPON_CONTACT_MASK)
-	body:setCategoryBitmask(WEAPON_CATEGORY_MASK)
-	body:setCollisionBitmask(WEAPON_COLLISION_MASK)
+	body:setContactTestBitmask(PhysicsMask.WEAPON_CONTACT_MASK)
+	body:setCategoryBitmask(PhysicsMask.WEAPON_CATEGORY_MASK)
+	body:setCollisionBitmask(PhysicsMask.WEAPON_COLLISION_MASK)
 	body:setLinearDamping(0.1)
 	body:setAngularDamping(0.1)
 	self:setPhysicsBody(body)
@@ -65,6 +61,7 @@ function BaseWeapon:pickedUp(alive)
 	self:retain()
 	self:removeFromParent()
 	alive:addChild(self)
+	self:setPosition(0, 0)
 	-- 从LandedWeapons中删除
 	local wpnList = DM:getValue("LandedWeapons")
 	if wpnList then
