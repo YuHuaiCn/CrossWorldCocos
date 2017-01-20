@@ -16,6 +16,8 @@ cc.exports.CollisionManager = {}
 cc.exports.CM = {}
 cc.exports.FollowController = {}
 cc.exports.FC = {}
+cc.exports.StickController  = {}
+cc.exports.SC = {}
 cc.exports.DataManager = {}
 cc.exports.DM = {}
 cc.exports.TiledMapManager = {}
@@ -30,6 +32,7 @@ cc.exports.EventDispatcher = Director:getEventDispatcher()
 cc.exports.FileUtils = cc.FileUtils:getInstance()
 cc.exports.CurrentHero = {}
 cc.exports.VisibleSize = Director:getVisibleSize()
+cc.exports.DesignSize  = {width = 960, height = 640}
 
 cc.exports.PIXCEL_PER_METER = 35
 cc.exports.POINT_TYPE_JUDGE_TIME = 0.08

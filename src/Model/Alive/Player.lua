@@ -40,7 +40,8 @@ end
 function Player:startFollow(touchPoint)
 	local lcPosition = DM:getValue("LandLayer"):convertToNodeSpace(touchPoint)
 	-- creat follow point: mouse
-    local mouse = cc.Sprite:create("Atlases/Weapon/Bat.png")
+    -- local mouse = cc.Sprite:create("Atlases/Weapon/Bat.png")
+    local mouse = cc.Sprite:create()
     local mouseBody = cc.PhysicsBody:create(PHYSICS_INFINITY, PHYSICS_INFINITY)
     mouseBody:setDynamic(false)
     mouse:setPhysicsBody(mouseBody)

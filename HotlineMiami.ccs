@@ -602,6 +602,16 @@
               <Image Name="sprShotgunMonumentPileLSD.png" />
             </Folder>
           </Folder>
+          <Folder Name="Effect">
+            <Folder Name="Bullet">
+              <Image Name="Black.png" />
+              <Image Name="Yellow.png" />
+            </Folder>
+            <Folder Name="Stick">
+              <Image Name="circle.png" />
+              <Image Name="stick.png" />
+            </Folder>
+          </Folder>
           <Folder Name="Enemy">
             <Folder Name="Colombians">
               <Folder Name="sprColombianAttackFamae">
@@ -14812,6 +14822,7 @@
         </Folder>
         <Folder Name="Ui">
           <Project Name="MenuLayer.csd" Type="Layer" />
+          <Project Name="StickControllerLayer.csd" Type="Layer" />
         </Folder>
       </RootFolder>
     </Group>

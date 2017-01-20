@@ -14,7 +14,7 @@ BaseScene._landLayer = nil
 function BaseScene:ctor(tmxMap)
 	local landLayer = cc.Layer:create()
 	local map = TMM:createMap(tmxMap, landLayer)
-	FollowController:init(landLayer)
+	StickController:init(self)
 	CollisionManager:init(landLayer)
 	local mapSize = map:getMapSize()
 	local tileSize = map:getTileSize()

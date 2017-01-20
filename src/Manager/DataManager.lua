@@ -67,11 +67,11 @@ function DataManager:aliasClass(orgName, newName)
 end
 
 function DataManager:storeValue(name, value)
-	if not DataManager._values[name] then
-		DataManager._values[name] = value
-	else
-		print("Store value failed. (value " .. name .. " is already exists)")
-	end
+	-- if not DataManager._values[name] then
+	DataManager._values[name] = value
+	-- else
+	-- 	print("Store value failed. (value " .. name .. " is already exists)")
+	-- end
 end
 
 function DataManager:getValue(name)
