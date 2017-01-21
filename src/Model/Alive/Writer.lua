@@ -152,27 +152,24 @@ function Writer:startAttack(touchPoint)
 		local entry
 		-- 攻击状态切换定时器(turn -> attack --> attacking)
 		entry =	Scheduler:scheduleScriptFunc(function()
-					-- Turn动画执行完之后进行攻击
-					if self.StateMachine:getState() == "turn" and
-					   self:getNumberOfRunningActions() == 0 then
-						if self.StateMachine:canDoEvent("Attack") then
-							self.StateMachine:doEvent("Attack")
-						end
-					elseif self.StateMachine:getState() == "attack" and
-						   self._spBody:getNumberOfRunningActions() == 0 then
-						-- attack到attacking的转换
-						if entry then
-							Scheduler:unscheduleScriptEntry(entry)
-						end
-						-- attack动画播放结束还没有调用endAttack()，则转换为attacking状态
-						if self._isAttacking == true then
-							if self.StateMachine:canDoEvent("Attacking") then
-								self.StateMachine:doEvent("Attacking")
-							end
+				-- Turn动画执行完之后进行攻击
+				if self.StateMachine:getState() == "turn" and
+				   self:getNumberOfRunningActions() == 0 then
+					if self.StateMachine:canDoEvent("Attack") then
+						self.StateMachine:doEvent("Attack")
+					end
+				elseif self.StateMachine:getState() == "attack" and
+					   self._spBody:getNumberOfRunningActions() == 0 then
+					-- attack到attacking的转换
+					Scheduler:unscheduleScriptEntry(entry)
+					-- attack动画播放结束还没有调用endAttack()，则转换为attacking状态
+					if self._isAttacking == true then
+						if self.StateMachine:canDoEvent("Attacking") then
+							self.StateMachine:doEvent("Attacking")
 						end
 					end
-
-				end, 0, false)
+				end
+			end, 0, false)
 		self._isAttacking = true
 		return true
 	else
@@ -194,14 +191,14 @@ function Writer:endAttack()
 		-- 攻击结束检测定时器，结束后切换到idle状态
 		local entry
 		entry = Scheduler:scheduleScriptFunc(function()
-					local state = self.StateMachine:getState()
-					if state == "attack" and self._spBody:getNumberOfRunningActions() == 0 then
-						if entry then
-							Scheduler:unscheduleScriptEntry(entry)
-						end
-						self.StateMachine:doEvent("Idle")
+				local state = self.StateMachine:getState()
+				if state == "attack" and self._spBody:getNumberOfRunningActions() == 0 then
+					if entry then
+						Scheduler:unscheduleScriptEntry(entry)
 					end
-				end, 0, false)
+					self.StateMachine:doEvent("Idle")
+				end
+			end, 0, false)
 	end
 end
 

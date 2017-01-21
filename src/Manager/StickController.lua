@@ -6,7 +6,8 @@ StickController._orgCenter    = nil
 StickController._curCenter    = nil
 StickController._cirRadious   = nil
 StickController._stkRadious   = nil
-StickController._touchRect    = {x = 0, y = 0, width = DesignSize.height / 2, height = DesignSize.height / 2}
+StickController._rootNode     = nil
+StickController._touchRect    = {x = 0, y = 0, width = 180, height = 180}
 
 local PointType = {
     NULL   = 0,
@@ -14,8 +15,13 @@ local PointType = {
     STICK  = 2,
 }
 
+StickController.Buttons = {
+    Btn_Pickup = -0.1,
+}
+
 function StickController:init(scene)
     local controlLayer = cc.CSLoader:createNode("Ui/StickControllerLayer.csb")
+    self._rootNode = controlLayer
     scene:addChild(controlLayer, 50)
     self._ControlLayer = controlLayer
     self._SpCirele = controlLayer:getChildByName("SP_Circle")
@@ -33,11 +39,27 @@ function StickController:init(scene)
     oneByOneListener:registerScriptHandler(function (...) self:touchEnded(...) end,
     										cc.Handler.EVENT_TOUCH_ENDED)
     EventDispatcher:addEventListenerWithSceneGraphPriority(oneByOneListener, controlLayer)
-	return self
+    self:registerButtons()
+    return self
+end
+
+function StickController:registerButtons()
+    for k, v in ipairs(self.Buttons) do
+        local btn = self._rootNode:getChildByName(k)
+        btn:addClickEventListener(self.onButtonClick)
+    end
+end
+
+function StickController.onButtonClick(sender)
+    local name = sender:getName()
+    if name == "Btn_Pickup" then
+        print("Btn_Pickup")
+    end
 end
 
 function StickController:touchBegin(touch, event)
     local touchPoint = touch:getLocation()
+    local hero = DM:getValue("CurrentHero")
     if self:pointInRect(touchPoint) then
         touch._type = PointType.STICK
         self._SpStick:setPosition(touchPoint)
@@ -49,8 +71,9 @@ function StickController:touchBegin(touch, event)
         self._curCenter = touchPoint
         return true
     else
-        touch._type = PointType.NULL
-        return false
+        touch._type = PointType.ATTACK
+        hero:startAttack(touchPoint)
+        return true
     end
 end
 
@@ -104,20 +127,11 @@ function StickController:touchMoved(touch, event)
         if hero._mouse == nil then
             -- 第一次进入此函数
             hero:startFollow(followPoint)
-            -- 添加_synMoveEntry定时器，用于同步touch和mouse
-            local synMoveEntry
-            local function synMovePoint()
-                if hero._mouse == nil then
-                    Scheduler:unscheduleScriptEntry(synMoveEntry)
-                    synMoveEntry = nil
-                    return
-                end
-                hero:updateFollow(touch._followPoint)
-            end
-            synMoveEntry = Scheduler:scheduleScriptFunc(synMovePoint, 0.2, false)
         else
             hero:updateFollow(followPoint)
         end
+    elseif touch._type == PointType.ATTACK then
+        hero:updateAttack(touchPoint)
     end
 end
 
@@ -132,6 +146,8 @@ function StickController:touchEnded(touch, event)
         if hero._mouse then
             hero:endFollow()
         end
+    elseif touch._type == PointType.ATTACK then
+        hero:endAttack()
     end
 end
 

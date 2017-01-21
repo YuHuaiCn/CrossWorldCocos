@@ -38,15 +38,15 @@ function Player:ctor(args)
 end
 
 function Player:startFollow(touchPoint)
-	local lcPosition = DM:getValue("LandLayer"):convertToNodeSpace(touchPoint)
+	local layerPosition = DM:getValue("LandLayer"):convertToNodeSpace(touchPoint)
 	-- creat follow point: mouse
-    -- local mouse = cc.Sprite:create("Atlases/Weapon/Bat.png")
-    local mouse = cc.Sprite:create()
+    local mouse = cc.Sprite:create("Atlases/Weapon/Bat.png")
+    -- local mouse = cc.Sprite:create()
     local mouseBody = cc.PhysicsBody:create(PHYSICS_INFINITY, PHYSICS_INFINITY)
     mouseBody:setDynamic(false)
     mouse:setPhysicsBody(mouseBody)
-    mouse:setPosition(lcPosition)
-    self:getParent():addChild(mouse)
+    mouse:setPosition(self:convertToNodeSpace(touchPoint))
+    self:addChild(mouse)
     self._mouse = mouse
     -- create joint
     local selfBody = self:getPhysicsBody()
@@ -55,12 +55,12 @@ function Player:startFollow(touchPoint)
     DM:getValue("PhysicsWorld"):addJoint(joint)
     -- init leg rotation
     self._preFollowedPoint = cc.p(-1000, -1000)
-    self:updateLegRotation(lcPosition)
+    self:updateLegRotation(layerPosition)
 end
 
 function Player:updateFollow(touchPoint)
 	local lcPosition = self:getParent():convertToNodeSpace(touchPoint)
-	self._mouse:setPosition(lcPosition)
+	self._mouse:setPosition(self:convertToNodeSpace(touchPoint))
     self:updateLegRotation(lcPosition)
 end
 

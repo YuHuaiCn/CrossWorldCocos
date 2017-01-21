@@ -28,6 +28,21 @@
             <FileData Type="Normal" Path="Atlases/Effect/Stick/stick.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
+          <AbstractNodeData Name="Btn_Pickup" ActionTag="-961770304" VisibleForFrame="False" Tag="4" IconVisible="False" HorizontalEdge="RightEdge" VerticalEdge="BottomEdge" LeftMargin="616.0000" RightMargin="-32.0000" TopMargin="345.0000" BottomMargin="-81.0000" TouchEnable="True" FontSize="100" ButtonText="Pickup" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="346" Scale9Height="354" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="376.0000" Y="376.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="804.0000" Y="107.0000" />
+            <Scale ScaleX="0.2000" ScaleY="0.2000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.8375" Y="0.1672" />
+            <PreSize X="0.3917" Y="0.5875" />
+            <TextColor A="255" R="255" G="0" B="0" />
+            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+            <PressedFileData Type="Normal" Path="Atlases/Effect/Stick/stick.png" Plist="" />
+            <NormalFileData Type="Normal" Path="Atlases/Effect/Stick/stick.png" Plist="" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
         </Children>
       </ObjectData>
     </Content>

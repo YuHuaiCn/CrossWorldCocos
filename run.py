@@ -34,6 +34,6 @@ def moveToSimulator(path):
 	for floder in existFloder:
 		moveToSimulator(path + '\\' + floder)
 
-#moveToSimulator('.\\res')
+moveToSimulator('.\\res')
 moveToSimulator('.\\src')
 os.system('simulator\\win32\CrossWorld.exe')

@@ -1,7 +1,6 @@
 
 local animConfig = {}
 
-
 -- animConfig format: gap = 5, offset = (0, 0)
 animConfig.Player = {}
 	animConfig.Player.Writer = {}	
