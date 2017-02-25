@@ -23,7 +23,7 @@ function CollisionManager:dtor(...)
 end
 
 function CollisionManager:onContactBegin(contact)
-    print("onContactBegin")
+    --print("onContactBegin")
     return true
 end
 

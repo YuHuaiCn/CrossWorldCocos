@@ -40,7 +40,8 @@ end
 function Player:startFollow(touchPoint)
 	local layerPosition = DM:getValue("LandLayer"):convertToNodeSpace(touchPoint)
 	-- creat follow point: mouse
-    local mouse = cc.Sprite:create("Atlases/Weapon/Bat.png")
+    -- local mouse = cc.Sprite:create("Atlases/Weapon/Bat.png")
+    local mouse = cc.Sprite:create()
     -- local mouse = cc.Sprite:create()
     local mouseBody = cc.PhysicsBody:create(PHYSICS_INFINITY, PHYSICS_INFINITY)
     mouseBody:setDynamic(false)
@@ -116,11 +117,11 @@ function Player:updateLegRotation(tarPoint)
        math.abs(tarPoint.y - self._preFollowedPoint.y) < 10 then
         return
     end
-    local angle = self:calRotationDegree(tarPoint)  -- tarPointÏà¶ÔÓÚselfµÄ½Ç¶È
+    local angle = self:calRotationDegree(tarPoint)  -- tarPointï¿½ï¿½ï¿½ï¿½ï¿½ï¿½selfï¿½Ä½Ç¶ï¿½
     local selfRot = self:getRotation()
     local spLeg = self:getChildByName("Leg")
     if spLeg then
-        spLeg:setRotation(angle - selfRot)  -- legÏà¶ÔÓÚselfµÄ½Ç¶È
+        spLeg:setRotation(angle - selfRot)  -- legï¿½ï¿½ï¿½ï¿½ï¿½ï¿½selfï¿½Ä½Ç¶ï¿½
     end
 end
 

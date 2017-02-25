@@ -44,7 +44,7 @@ function StickController:init(scene)
 end
 
 function StickController:registerButtons()
-    for k, v in ipairs(self.Buttons) do
+    for k, v in pairs(self.Buttons) do
         local btn = self._rootNode:getChildByName(k)
         btn:addClickEventListener(self.onButtonClick)
     end
@@ -54,6 +54,20 @@ function StickController.onButtonClick(sender)
     local name = sender:getName()
     if name == "Btn_Pickup" then
         print("Btn_Pickup")
+        local hero = DM:getValue("CurrentHero")
+        local weapons = DM:getValue("LandedWeapons")
+        local lcPoint = cc.p(hero:getPosition())
+        local wpnIndex
+        for i, spWpn in ipairs(weapons) do
+            -- 距离touchPoint 15以内，是否存在武器
+            local dst = cc.pDistanceSQ(lcPoint, cc.p(spWpn:getPosition()))
+            if dst <= 400 then
+                wpnIndex = i
+            end
+        end
+        if wpnIndex then
+            hero:pickupWeapon(wpnIndex)
+        end
     end
 end
 
