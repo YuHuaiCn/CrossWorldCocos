@@ -65,7 +65,7 @@ function FollowController:touchBegin(touch, event)
     touch._type = POINT_TYPE_NULL
     self._oneByOnePoints[#self._oneByOnePoints + 1] = touch
     local landLayer = DM:getValue("LandLayer")
-    local hero = DM:getValue("CurrentHero")
+    local hero = PM:getCurrentHero()
     local touchPoint = touch:getLocation()
     -- in follow panel
     if touchPoint.x <= VisibleSize.width / 10 or
@@ -127,7 +127,7 @@ end
 -- 优化：超过一定距离才出发updateFollow
 function FollowController:touchMoved(touch, event)
     local touchPoint = touch:getLocation()
-    local hero = DM:getValue("CurrentHero")
+    local hero = PM:getCurrentHero()
 	if touch._type == POINT_TYPE_FOLLOW then
         local followPoint = self:pointOnCircle(touchPoint)
 		hero:updateFollow(followPoint)
@@ -138,7 +138,7 @@ function FollowController:touchMoved(touch, event)
 end
 
 function FollowController:touchEnded(touch, event)
-    local hero = DM:getValue("CurrentHero")
+    local hero = PM:getCurrentHero()
     for i, point in ipairs(self._oneByOnePoints) do
         if point == touch then
         	if point._type == POINT_TYPE_FOLLOW then

@@ -54,7 +54,7 @@ function StickController.onButtonClick(sender)
     local name = sender:getName()
     if name == "Btn_Pickup" then
         print("Btn_Pickup")
-        local hero = DM:getValue("CurrentHero")
+        local hero = PM:getCurrentHero()
         local weapons = DM:getValue("LandedWeapons")
         local lcPoint = cc.p(hero:getPosition())
         local wpnIndex
@@ -73,7 +73,7 @@ end
 
 function StickController:touchBegin(touch, event)
     local touchPoint = touch:getLocation()
-    local hero = DM:getValue("CurrentHero")
+    local hero = PM:getCurrentHero()
     if self:pointInRect(touchPoint) then
         touch._type = PointType.STICK
         self._SpStick:setPosition(touchPoint)
@@ -119,7 +119,7 @@ end
 
 function StickController:touchMoved(touch, event)
     local touchPoint = touch:getLocation()
-    local hero = DM:getValue("CurrentHero")
+    local hero = PM:getCurrentHero()
 	if touch._type == PointType.STICK then
         local stickPos
         local dst = cc.pGetDistance(touchPoint, self._curCenter)
@@ -151,7 +151,7 @@ end
 
 function StickController:touchEnded(touch, event)
     local touchPoint = touch:getLocation()
-    local hero = DM:getValue("CurrentHero")
+    local hero = PM:getCurrentHero()
     if touch._type == PointType.STICK then
         local act1 = cc.Spawn:create(cc.FadeTo:create(0.2, 77), cc.MoveTo:create(0.2, self._orgCenter))
         local act2 = act1:clone()

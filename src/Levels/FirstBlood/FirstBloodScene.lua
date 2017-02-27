@@ -18,7 +18,7 @@ function FirstBloodScene:test()
 	local landLayer = DM:getValue("LandLayer")
 	landLayer:addChild(sprWriter, 10)
 	SC:initCamera(landLayer, sprWriter)
-	DM:storeValue("CurrentHero", sprWriter)
+	PM:setCurrentHero(sprWriter)
 	-- add Weapon
 	local spr9mm = Weapon.Nmm.new()
 	spr9mm:addPhysicsBody()

@@ -1,4 +1,2 @@
 
-	print(math.sin(math.rad(30)))
-
-
+print("结果：" .. math.sin(math.rad(30)))
