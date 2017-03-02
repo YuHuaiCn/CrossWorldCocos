@@ -45,7 +45,7 @@ function Writer:initStateMachine()
 			{name = "Turn", from = "idle", to = "turn"},
 			-- Event: attack
 			{name = "Attack", from = "turn", to = "attack"},
-			{name = "Attacking", from = "attack", to = "attacking"},
+			{name = "Attacking", from = "attack", to = "attacking"},  -- 缺少一个运动攻击的状态
 			-- Event: Pickup
 			{name = "Pickup", from = "idle", to = "pickup"},
 			{name = "Pickup", from = "walk", to = "pickup"}
@@ -64,7 +64,9 @@ function Writer:initStateMachine()
 							end,
 			onleavewalk   =	function(event)
 								self._spBody:stopAllActions()
-								AM:pauseAnimation(self._spLeg)
+								if event.to ~= "turn" then
+									AM:pauseAnimation(self._spLeg)
+								end
 							end,
 			onleaveturn   =	function(event) end,
 			onleavepickup = function(event) end,
@@ -186,7 +188,13 @@ function Writer:endAttack()
 	self._isAttacking = false
 	local state = self.StateMachine:getState()
 	if state == "attacking" then
-		self.StateMachine:doEvent("Idle")
+		if self._mouse then
+			-- 行走状态
+			self.StateMachine:doEvent("Walk")
+		else
+			-- 站桩输出状态
+			self.StateMachine:doEvent("Idle")
+		end
 	else
 		-- 攻击结束检测定时器，结束后切换到idle状态
 		local entry
@@ -196,7 +204,12 @@ function Writer:endAttack()
 					if entry then
 						Scheduler:unscheduleScriptEntry(entry)
 					end
-					self.StateMachine:doEvent("Idle")
+					if self._mouse then
+						-- 行走状态
+						self.StateMachine:doEvent("Walk")
+					else
+						self.StateMachine:doEvent("Idle")
+					end
 				end
 			end, 0, false)
 	end
@@ -295,26 +308,26 @@ function Writer:pickupWeapon(wpnIndex)
     local wpnPos = cc.p(spWpn:getPosition())
 	local dst2wp = cc.pDistanceSQ(selfPoint, wpnPos)
 	-- 距离太远则需要走过去
-	if dst2wp >= 225 then
-		self:startFollow(DM:getValue("LandLayer"):convertToWorldSpace(wpnPos))
-		local entry
-		entry = Scheduler:scheduleScriptFunc(function()
-					local posX, posY = self:getPosition()
-					if math.abs(posX - wpnPos.x) < 10 and
-					   math.abs(posY - wpnPos.y) < 10 then
-						if entry then
-							Scheduler:unscheduleScriptEntry(entry)
-						end
-						if self.StateMachine:canDoEvent("Pickup") then
-							self.StateMachine:doEvent("Pickup", wpnIndex)
-						end
-					end
-				end, 0, false)
-	else
+	-- if dst2wp >= 225 then
+	-- 	self:startFollow(DM:getValue("LandLayer"):convertToWorldSpace(wpnPos))
+	-- 	local entry
+	-- 	entry = Scheduler:scheduleScriptFunc(function()
+	-- 				local posX, posY = self:getPosition()
+	-- 				if math.abs(posX - wpnPos.x) < 10 and
+	-- 				   math.abs(posY - wpnPos.y) < 10 then
+	-- 					if entry then
+	-- 						Scheduler:unscheduleScriptEntry(entry)
+	-- 					end
+	-- 					if self.StateMachine:canDoEvent("Pickup") then
+	-- 						self.StateMachine:doEvent("Pickup", wpnIndex)
+	-- 					end
+	-- 				end
+	-- 			end, 0, false)
+	-- else
 		if self.StateMachine:canDoEvent("Walk") then
 			self.StateMachine:doEvent("Pickup", wpnIndex)
 		end
-	end
+	-- end
 	return true
 end
 

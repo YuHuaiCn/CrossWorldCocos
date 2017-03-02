@@ -11,9 +11,9 @@ local function init()
 	-- local designSize = {width = 960, height = 640}
 	local viewSize = glView:getFrameSize()
 	if viewSize.width / viewSize.height > 1.5 then
-		glView:setDesignResolutionSize(DesignSize.width, DesignSize.height, cc.ResolutionPolicy.FIXED_HEIGHT)
-	else
 		glView:setDesignResolutionSize(DesignSize.width, DesignSize.height, cc.ResolutionPolicy.FIXED_WIDTH)
+	else
+		glView:setDesignResolutionSize(DesignSize.width, DesignSize.height, cc.ResolutionPolicy.FIXED_HEIGHT)
 	end
 	VisibleSize = Director:getVisibleSize()
 end
