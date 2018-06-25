@@ -1,0 +1,16 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Kalashnikov" Type="Plist" ID="86c346da-c8fd-4040-a87b-5d9660a3cdbe" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Writer/Walk/Kalashnikov/000.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Kalashnikov/001.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Kalashnikov/002.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Kalashnikov/003.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Kalashnikov/004.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Kalashnikov/005.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Kalashnikov/006.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Kalashnikov/007.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

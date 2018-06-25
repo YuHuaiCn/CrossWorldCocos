@@ -1,0 +1,18 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Dead001" Type="Plist" ID="a3f05598-016b-4d01-be93-ba1e802eeaed" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieLean/000.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieLean/001.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieLean/002.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieLean/003.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieLean/004.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieLean/005.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieLean/006.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieLean/007.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieLean/008.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieLean/009.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="64" />
+  </Content>
+</PlistInfoProjectFile>

@@ -1,0 +1,24 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Leg" Type="Plist" ID="664f9ec7-a04b-4601-8157-ff5dea852ff2" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianLegs/000.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianLegs/001.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianLegs/002.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianLegs/003.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianLegs/004.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianLegs/005.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianLegs/006.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianLegs/007.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianLegs/008.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianLegs/009.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianLegs/010.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianLegs/011.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianLegs/012.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianLegs/013.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianLegs/014.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianLegs/015.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="32" />
+  </Content>
+</PlistInfoProjectFile>

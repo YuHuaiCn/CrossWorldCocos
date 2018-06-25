@@ -1,0 +1,16 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Chain" Type="Plist" ID="de6869a5-2351-4f9c-8a11-af91ae6443c6" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Writer/Walk/Chain/000.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Chain/001.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Chain/002.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Chain/003.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Chain/004.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Chain/005.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Chain/006.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Chain/007.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="64" />
+  </Content>
+</PlistInfoProjectFile>

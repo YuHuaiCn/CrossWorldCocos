@@ -1,0 +1,17 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Knife" Type="Plist" ID="e5bfde68-e3d8-4a9d-af06-b9abe420113d" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianAttackKnife/000.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianAttackKnife/001.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianAttackKnife/002.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianAttackKnife/003.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianAttackKnife/004.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianAttackKnife/005.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianAttackKnife/006.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianAttackKnife/007.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianAttackKnife/008.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="64" />
+  </Content>
+</PlistInfoProjectFile>

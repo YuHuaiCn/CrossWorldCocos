@@ -1,0 +1,19 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Barrel" Type="Plist" ID="a1eb0df3-098c-4c34-9c6c-a242cfb94efe" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Barrel/000.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Barrel/001.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Barrel/002.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Barrel/003.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Barrel/004.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Barrel/005.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Barrel/006.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Barrel/007.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Barrel/008.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Barrel/009.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Barrel/010.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="64" />
+  </Content>
+</PlistInfoProjectFile>

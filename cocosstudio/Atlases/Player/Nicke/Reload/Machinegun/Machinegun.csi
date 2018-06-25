@@ -1,0 +1,22 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Machinegun" Type="Plist" ID="3798c88d-a74a-4e6f-b2f6-8070323c0b47" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Machinegun/000.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Machinegun/001.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Machinegun/002.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Machinegun/003.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Machinegun/004.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Machinegun/005.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Machinegun/006.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Machinegun/007.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Machinegun/008.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Machinegun/009.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Machinegun/010.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Machinegun/011.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Machinegun/012.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Machinegun/013.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="32" />
+  </Content>
+</PlistInfoProjectFile>

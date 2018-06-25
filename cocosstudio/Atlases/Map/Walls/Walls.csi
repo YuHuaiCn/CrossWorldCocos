@@ -1,0 +1,14 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Walls" Type="Plist" ID="1756dee1-9d79-41f7-9a9a-19198d50c835" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Map/Walls/redCorner.png" />
+      <FilePathData Path="Atlases/Map/Walls/sprBrickWallH.png" />
+      <FilePathData Path="Atlases/Map/Walls/sprBrickWallV.png" />
+      <FilePathData Path="Atlases/Map/Walls/sprWallH.png" />
+      <FilePathData Path="Atlases/Map/Walls/sprWallV.png" />
+      <FilePathData Path="Atlases/Map/Walls/whiteCorner.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

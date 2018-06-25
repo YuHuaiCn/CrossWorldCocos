@@ -1,0 +1,16 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Machinegun" Type="Plist" ID="ae6d0fc1-b9bf-46c0-851f-bf38efed3ae1" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Nicke/Walk/Machinegun/000.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Walk/Machinegun/001.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Walk/Machinegun/002.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Walk/Machinegun/003.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Walk/Machinegun/004.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Walk/Machinegun/005.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Walk/Machinegun/006.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Walk/Machinegun/007.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

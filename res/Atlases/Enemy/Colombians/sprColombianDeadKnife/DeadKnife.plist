@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDeadKnife/000.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{70,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,40}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDeadKnife/001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{70,0},{70,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,40}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDeadKnife/002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{140,0},{70,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,40}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDeadKnife/003.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,40},{70,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,40}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDeadKnife/004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{70,40},{70,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,40}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDeadKnife/005.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{140,40},{70,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,40}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDeadKnife/006.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,80},{70,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,40}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDeadKnife/007.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{70,80},{70,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,40}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDeadKnife/008.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{140,80},{70,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,40}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDeadKnife/009.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,120},{70,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,40}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDeadKnife/010.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{70,120},{70,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,40}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDeadKnife/011.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{140,120},{70,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,40}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDeadKnife/012.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,160},{70,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,40}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDeadKnife/013.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{70,160},{70,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,40}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDeadKnife/014.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{140,160},{70,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,40}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDeadKnife/015.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,200},{70,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,40}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>DeadKnife.png</string>
+			<key>realTextureFileName</key>
+			<string>DeadKnife.png</string>
+			<key>size</key>
+			<string>{210,240}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>210</integer>
+			<key>height</key>
+			<integer>240</integer>
+		</dict>
+	</dict>
+</plist>

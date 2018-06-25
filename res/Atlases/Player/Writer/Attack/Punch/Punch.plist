@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Atlases/Player/Writer/Attack/Punch/000.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{50,32}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{50,32}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Attack/Punch/001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{50,0},{50,32}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{50,32}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Attack/Punch/002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{100,0},{50,32}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{50,32}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Attack/Punch/003.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{150,0},{50,32}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{50,32}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Attack/Punch/004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{200,0},{50,32}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{50,32}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Attack/Punch/005.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{250,0},{50,32}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{50,32}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Attack/Punch/006.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{300,0},{50,32}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{50,32}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Punch.png</string>
+			<key>realTextureFileName</key>
+			<string>Punch.png</string>
+			<key>size</key>
+			<string>{350,32}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>350</integer>
+			<key>height</key>
+			<integer>32</integer>
+		</dict>
+	</dict>
+</plist>

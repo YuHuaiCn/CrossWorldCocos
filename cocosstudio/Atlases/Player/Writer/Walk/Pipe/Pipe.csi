@@ -1,0 +1,16 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Pipe" Type="Plist" ID="f277d163-7e03-4892-af4a-138adbfe25b7" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Writer/Walk/Pipe/000.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Pipe/001.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Pipe/002.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Pipe/003.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Pipe/004.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Pipe/005.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Pipe/006.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Pipe/007.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="64" />
+  </Content>
+</PlistInfoProjectFile>

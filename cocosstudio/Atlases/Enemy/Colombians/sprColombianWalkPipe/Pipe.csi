@@ -1,0 +1,16 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Pipe" Type="Plist" ID="bfc88239-4ad8-41f3-93f9-706b3d6519f7" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkPipe/000.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkPipe/001.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkPipe/002.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkPipe/003.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkPipe/004.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkPipe/005.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkPipe/006.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkPipe/007.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="64" />
+  </Content>
+</PlistInfoProjectFile>

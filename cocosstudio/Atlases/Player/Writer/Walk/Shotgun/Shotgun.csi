@@ -1,0 +1,16 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Shotgun" Type="Plist" ID="b01e39aa-f834-44c8-9436-0e0603ea6af0" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Writer/Walk/Shotgun/000.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Shotgun/001.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Shotgun/002.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Shotgun/003.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Shotgun/004.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Shotgun/005.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Shotgun/006.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Shotgun/007.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

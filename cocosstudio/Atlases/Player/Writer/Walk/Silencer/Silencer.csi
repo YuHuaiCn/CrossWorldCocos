@@ -1,0 +1,16 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Silencer" Type="Plist" ID="17c745d7-28b3-424b-abc0-d6dbcbb96010" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Writer/Walk/Silencer/000.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Silencer/001.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Silencer/002.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Silencer/003.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Silencer/004.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Silencer/005.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Silencer/006.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Silencer/007.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

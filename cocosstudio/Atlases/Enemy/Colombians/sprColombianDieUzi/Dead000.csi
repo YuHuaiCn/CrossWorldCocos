@@ -1,0 +1,29 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Dead000" Type="Plist" ID="ce06429d-2e6b-4275-8653-8df221ecd9a1" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieUzi/000.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieUzi/001.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieUzi/002.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieUzi/003.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieUzi/004.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieUzi/005.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieUzi/006.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieUzi/007.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieUzi/008.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieUzi/009.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieUzi/010.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieUzi/011.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieUzi/012.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieUzi/013.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieUzi/014.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieUzi/015.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieUzi/016.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieUzi/017.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieUzi/018.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieUzi/019.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieUzi/020.png" />
+    </ImageFiles>
+    <MaxSize Width="2048" Height="64" />
+  </Content>
+</PlistInfoProjectFile>

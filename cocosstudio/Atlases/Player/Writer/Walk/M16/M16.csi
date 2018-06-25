@@ -1,0 +1,16 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="M16" Type="Plist" ID="6932659b-503d-4452-92ac-94ed6d2f3d56" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Writer/Walk/M16/000.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/M16/001.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/M16/002.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/M16/003.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/M16/004.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/M16/005.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/M16/006.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/M16/007.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="32" />
+  </Content>
+</PlistInfoProjectFile>

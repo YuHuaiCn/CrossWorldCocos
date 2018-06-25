@@ -1,0 +1,12 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Barrel1" Type="Plist" ID="2436ff3b-70b4-4778-a2a6-d30a4af948cf" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Writer/Attack/Barrel1/000.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Barrel1/001.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Barrel1/002.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Barrel1/003.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

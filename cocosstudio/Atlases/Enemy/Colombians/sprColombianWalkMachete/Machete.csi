@@ -1,0 +1,16 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Machete" Type="Plist" ID="135094e6-1fea-4c24-97e9-10769bb6f8e5" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkMachete/000.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkMachete/001.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkMachete/002.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkMachete/003.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkMachete/004.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkMachete/005.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkMachete/006.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkMachete/007.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

@@ -1,0 +1,16 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Club" Type="Plist" ID="886c1304-e511-4a79-8cb8-c2959e3fba2c" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Writer/Walk/Club/000.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Club/001.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Club/002.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Club/003.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Club/004.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Club/005.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Club/006.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Club/007.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="64" />
+  </Content>
+</PlistInfoProjectFile>

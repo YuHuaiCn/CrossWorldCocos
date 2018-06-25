@@ -1,0 +1,21 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Shotgun" Type="Plist" ID="457e04d7-3edd-4b48-bd21-b641f00fc56a" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Writer/Attack/Shotgun/000.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Shotgun/001.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Shotgun/002.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Shotgun/003.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Shotgun/004.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Shotgun/005.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Shotgun/006.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Shotgun/007.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Shotgun/008.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Shotgun/009.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Shotgun/010.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Shotgun/011.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Shotgun/012.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

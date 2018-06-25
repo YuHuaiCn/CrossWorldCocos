@@ -1,0 +1,19 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="M16" Type="Plist" ID="3c4de217-03ab-4772-b274-1999339cfbb6" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Writer/Disarm/M16/000.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/M16/001.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/M16/002.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/M16/003.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/M16/004.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/M16/005.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/M16/006.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/M16/007.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/M16/008.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/M16/009.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/M16/010.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="64" />
+  </Content>
+</PlistInfoProjectFile>

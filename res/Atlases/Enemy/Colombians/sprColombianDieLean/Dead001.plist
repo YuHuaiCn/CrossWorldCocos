@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDieLean/000.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{34,34}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{34,34}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDieLean/001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{34,0},{34,34}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{34,34}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDieLean/002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{68,0},{34,34}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{34,34}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDieLean/003.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{102,0},{34,34}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{34,34}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDieLean/004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{136,0},{34,34}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{34,34}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDieLean/005.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{170,0},{34,34}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{34,34}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDieLean/006.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{204,0},{34,34}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{34,34}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDieLean/007.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{238,0},{34,34}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{34,34}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDieLean/008.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{272,0},{34,34}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{34,34}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianDieLean/009.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{306,0},{34,34}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{34,34}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Dead001.png</string>
+			<key>realTextureFileName</key>
+			<string>Dead001.png</string>
+			<key>size</key>
+			<string>{340,34}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>340</integer>
+			<key>height</key>
+			<integer>34</integer>
+		</dict>
+	</dict>
+</plist>

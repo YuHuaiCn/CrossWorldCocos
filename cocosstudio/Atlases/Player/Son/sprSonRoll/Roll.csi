@@ -1,0 +1,16 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Roll" Type="Plist" ID="d0d5ef92-70ec-4c34-95a4-d2d28feff8ac" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Son/sprSonRoll/009.png" />
+      <FilePathData Path="Atlases/Player/Son/sprSonRoll/010.png" />
+      <FilePathData Path="Atlases/Player/Son/sprSonRoll/011.png" />
+      <FilePathData Path="Atlases/Player/Son/sprSonRoll/012.png" />
+      <FilePathData Path="Atlases/Player/Son/sprSonRoll/013.png" />
+      <FilePathData Path="Atlases/Player/Son/sprSonRoll/014.png" />
+      <FilePathData Path="Atlases/Player/Son/sprSonRoll/015.png" />
+      <FilePathData Path="Atlases/Player/Son/sprSonRoll/016.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

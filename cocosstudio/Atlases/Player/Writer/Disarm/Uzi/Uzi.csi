@@ -1,0 +1,19 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Uzi" Type="Plist" ID="b1209ff4-17b0-4725-9fd6-791873b83f54" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Uzi/000.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Uzi/001.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Uzi/002.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Uzi/003.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Uzi/004.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Uzi/005.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Uzi/006.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Uzi/007.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Uzi/008.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Uzi/009.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Uzi/010.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="64" />
+  </Content>
+</PlistInfoProjectFile>

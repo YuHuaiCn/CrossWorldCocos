@@ -1,0 +1,15 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Punch" Type="Plist" ID="c74a27bb-474f-4a2c-bd7b-f507b1922240" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Writer/Attack/Punch/000.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Punch/001.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Punch/002.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Punch/003.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Punch/004.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Punch/005.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Punch/006.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Atlases/Enemy/Colombians/sprColombianAttackSilencer/000.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{50,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{50,24}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianAttackSilencer/001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{50,0},{50,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{50,24}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Silencer.png</string>
+			<key>realTextureFileName</key>
+			<string>Silencer.png</string>
+			<key>size</key>
+			<string>{100,24}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>100</integer>
+			<key>height</key>
+			<integer>24</integer>
+		</dict>
+	</dict>
+</plist>

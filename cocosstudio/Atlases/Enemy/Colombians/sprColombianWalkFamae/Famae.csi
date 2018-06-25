@@ -1,0 +1,16 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Famae" Type="Plist" ID="578c92f7-baa7-4f74-8b83-a695c509324f" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkFamae/000.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkFamae/001.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkFamae/002.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkFamae/003.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkFamae/004.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkFamae/005.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkFamae/006.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkFamae/007.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

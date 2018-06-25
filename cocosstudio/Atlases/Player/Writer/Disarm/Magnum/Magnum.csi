@@ -1,0 +1,22 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Magnum" Type="Plist" ID="bbedf60c-6456-4124-afdf-51c82c715e59" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Magnum/000.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Magnum/001.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Magnum/002.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Magnum/003.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Magnum/004.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Magnum/005.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Magnum/006.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Magnum/007.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Magnum/008.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Magnum/009.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Magnum/010.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Magnum/011.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Magnum/012.png" />
+      <FilePathData Path="Atlases/Player/Writer/Disarm/Magnum/013.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

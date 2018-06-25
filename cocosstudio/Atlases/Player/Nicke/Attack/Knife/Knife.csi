@@ -1,0 +1,17 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Knife" Type="Plist" ID="55957e94-8d9c-47d0-aadf-477a2020f60c" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Nicke/Attack/Knife/000.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Attack/Knife/001.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Attack/Knife/002.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Attack/Knife/003.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Attack/Knife/004.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Attack/Knife/005.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Attack/Knife/006.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Attack/Knife/007.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Attack/Knife/008.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="128" />
+  </Content>
+</PlistInfoProjectFile>

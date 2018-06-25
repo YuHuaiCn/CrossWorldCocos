@@ -1,0 +1,17 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Pipe" Type="Plist" ID="df0bbe76-2c8e-4804-90d8-bf7d1ac0cd26" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Writer/Attack/Pipe/000.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Pipe/001.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Pipe/002.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Pipe/003.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Pipe/004.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Pipe/005.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Pipe/006.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Pipe/007.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Pipe/008.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="64" />
+  </Content>
+</PlistInfoProjectFile>

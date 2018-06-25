@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Atlases/Player/Writer/Walk/Chain/000.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{48,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{48,48}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Walk/Chain/001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{48,0},{48,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{48,48}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Walk/Chain/002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{96,0},{48,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{48,48}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Walk/Chain/003.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{144,0},{48,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{48,48}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Walk/Chain/004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{192,0},{48,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{48,48}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Walk/Chain/005.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{240,0},{48,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{48,48}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Walk/Chain/006.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{288,0},{48,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{48,48}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Walk/Chain/007.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{336,0},{48,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{48,48}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Chain.png</string>
+			<key>realTextureFileName</key>
+			<string>Chain.png</string>
+			<key>size</key>
+			<string>{384,48}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>384</integer>
+			<key>height</key>
+			<integer>48</integer>
+		</dict>
+	</dict>
+</plist>

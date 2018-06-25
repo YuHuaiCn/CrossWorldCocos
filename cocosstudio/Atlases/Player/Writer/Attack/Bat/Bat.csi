@@ -1,0 +1,17 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Bat" Type="Plist" ID="f2f001cc-4961-4b7d-b0c5-4b7f61698d55" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Writer/Attack/Bat/000.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Bat/001.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Bat/002.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Bat/003.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Bat/004.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Bat/005.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Bat/006.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Bat/007.png" />
+      <FilePathData Path="Atlases/Player/Writer/Attack/Bat/008.png" />
+    </ImageFiles>
+    <MaxSize Width="512" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

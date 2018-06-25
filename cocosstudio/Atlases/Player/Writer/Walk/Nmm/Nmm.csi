@@ -1,0 +1,16 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Nmm" Type="Plist" ID="539d338e-3d3c-460b-8f89-c9ac192b2bf7" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Writer/Walk/Nmm/000.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Nmm/001.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Nmm/002.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Nmm/003.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Nmm/004.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Nmm/005.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Nmm/006.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Nmm/007.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Atlases/Player/Writer/Walk/Club/000.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{46,52}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{46,52}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Walk/Club/001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{46,0},{46,52}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{46,52}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Walk/Club/002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{92,0},{46,52}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{46,52}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Walk/Club/003.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{138,0},{46,52}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{46,52}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Walk/Club/004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{184,0},{46,52}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{46,52}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Walk/Club/005.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{230,0},{46,52}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{46,52}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Walk/Club/006.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{276,0},{46,52}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{46,52}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Walk/Club/007.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{322,0},{46,52}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{46,52}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Club.png</string>
+			<key>realTextureFileName</key>
+			<string>Club.png</string>
+			<key>size</key>
+			<string>{368,52}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>368</integer>
+			<key>height</key>
+			<integer>52</integer>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,23 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Sniper" Type="Plist" ID="537c199d-de5b-4cd6-a8ba-12633677442d" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Sniper/000.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Sniper/001.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Sniper/002.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Sniper/003.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Sniper/004.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Sniper/005.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Sniper/006.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Sniper/007.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Sniper/008.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Sniper/009.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Sniper/010.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Sniper/011.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Sniper/012.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Sniper/013.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Reload/Sniper/014.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

@@ -1,0 +1,21 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Shotgun" Type="Plist" ID="9fabc23a-8122-45a0-860e-f995f1f30e1c" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianAttackShotgun/000.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianAttackShotgun/001.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianAttackShotgun/002.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianAttackShotgun/003.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianAttackShotgun/004.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianAttackShotgun/005.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianAttackShotgun/006.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianAttackShotgun/007.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianAttackShotgun/008.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianAttackShotgun/009.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianAttackShotgun/010.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianAttackShotgun/011.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianAttackShotgun/012.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

@@ -31,9 +31,9 @@
     <Item Key="TabsParamsKey">
       <Value ctype="TabsInfo">
         <OpenedDocuments>
-          <FilePathData Path="Ui/StickControllerLayer.csd" />
+          <FilePathData Path="Atlases/Player/Son/sprSonRoll/Roll.csi" />
         </OpenedDocuments>
-        <ActiveDocument Path="Ui/StickControllerLayer.csd" />
+        <ActiveDocument Path="Atlases/Player/Son/sprSonRoll/Roll.csi" />
       </Value>
     </Item>
   </Properties>

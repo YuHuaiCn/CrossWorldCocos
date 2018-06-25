@@ -617,6 +617,7 @@
               <Folder Name="sprColombianAttackFamae">
                 <Image Name="000.png" />
                 <Image Name="001.png" />
+                <PlistInfo Name="Famae.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianAttackKnife">
                 <Image Name="000.png" />
@@ -628,6 +629,7 @@
                 <Image Name="006.png" />
                 <Image Name="007.png" />
                 <Image Name="008.png" />
+                <PlistInfo Name="Knife.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianAttackMachette">
                 <Image Name="000.png" />
@@ -638,10 +640,12 @@
                 <Image Name="005.png" />
                 <Image Name="006.png" />
                 <Image Name="007.png" />
+                <PlistInfo Name="Machette.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianAttackMendoza">
                 <Image Name="000.png" />
                 <Image Name="001.png" />
+                <PlistInfo Name="Mendoza.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianAttackPipe">
                 <Image Name="000.png" />
@@ -653,6 +657,7 @@
                 <Image Name="006.png" />
                 <Image Name="007.png" />
                 <Image Name="008.png" />
+                <PlistInfo Name="Pipe.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianAttackShotgun">
                 <Image Name="000.png" />
@@ -668,10 +673,12 @@
                 <Image Name="010.png" />
                 <Image Name="011.png" />
                 <Image Name="012.png" />
+                <PlistInfo Name="Shotgun.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianAttackSilencer">
                 <Image Name="000.png" />
                 <Image Name="001.png" />
+                <PlistInfo Name="Silencer.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianCrawl">
                 <Image Name="000.png" />
@@ -730,6 +737,7 @@
                 <Image Name="013.png" />
                 <Image Name="014.png" />
                 <Image Name="015.png" />
+                <PlistInfo Name="DeadKnife.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianDeadLeanMachinegun">
                 <Image Name="000.png" />
@@ -740,6 +748,7 @@
                 <Image Name="001.png" />
                 <Image Name="002.png" />
                 <Image Name="003.png" />
+                <PlistInfo Name="Dead004.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianDeadLeanShotgun">
                 <Image Name="000.png" />
@@ -834,6 +843,7 @@
                 <Image Name="015.png" />
                 <Image Name="016.png" />
                 <Image Name="017.png" />
+                <PlistInfo Name="Dead002.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianDieCop">
                 <Image Name="000.png" />
@@ -872,6 +882,7 @@
                 <Image Name="007.png" />
                 <Image Name="008.png" />
                 <Image Name="009.png" />
+                <PlistInfo Name="Dead001.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianDieMachete">
                 <Image Name="000.png" />
@@ -956,6 +967,7 @@
                 <Image Name="018.png" />
                 <Image Name="019.png" />
                 <Image Name="020.png" />
+                <PlistInfo Name="Dead000.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianDodgerAttack">
                 <Image Name="000.png" />
@@ -1122,6 +1134,7 @@
                 <Image Name="013.png" />
                 <Image Name="014.png" />
                 <Image Name="015.png" />
+                <PlistInfo Name="Leg.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianSearchFamae">
                 <Image Name="000.png" />
@@ -1134,6 +1147,7 @@
                 <Image Name="007.png" />
                 <Image Name="008.png" />
                 <Image Name="009.png" />
+                <PlistInfo Name="Famae.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianSearchKnife">
                 <Image Name="000.png" />
@@ -1146,6 +1160,7 @@
                 <Image Name="007.png" />
                 <Image Name="008.png" />
                 <Image Name="009.png" />
+                <PlistInfo Name="Knife.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianSearchMachete">
                 <Image Name="000.png" />
@@ -1158,6 +1173,7 @@
                 <Image Name="007.png" />
                 <Image Name="008.png" />
                 <Image Name="009.png" />
+                <PlistInfo Name="Machete.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianSearchMendoza">
                 <Image Name="000.png" />
@@ -1170,6 +1186,7 @@
                 <Image Name="007.png" />
                 <Image Name="008.png" />
                 <Image Name="009.png" />
+                <PlistInfo Name="Mendoza.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianSearchPipe">
                 <Image Name="000.png" />
@@ -1182,6 +1199,7 @@
                 <Image Name="007.png" />
                 <Image Name="008.png" />
                 <Image Name="009.png" />
+                <PlistInfo Name="Pipe.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianSearchShotgun">
                 <Image Name="000.png" />
@@ -1194,6 +1212,7 @@
                 <Image Name="007.png" />
                 <Image Name="008.png" />
                 <Image Name="009.png" />
+                <PlistInfo Name="Shotgun.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianSearchSilencer">
                 <Image Name="000.png" />
@@ -1206,6 +1225,7 @@
                 <Image Name="007.png" />
                 <Image Name="008.png" />
                 <Image Name="009.png" />
+                <PlistInfo Name="Silencer.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianWalkFamae">
                 <Image Name="000.png" />
@@ -1216,6 +1236,7 @@
                 <Image Name="005.png" />
                 <Image Name="006.png" />
                 <Image Name="007.png" />
+                <PlistInfo Name="Famae.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianWalkKnife">
                 <Image Name="000.png" />
@@ -1226,6 +1247,7 @@
                 <Image Name="005.png" />
                 <Image Name="006.png" />
                 <Image Name="007.png" />
+                <PlistInfo Name="Knife.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianWalkMachete">
                 <Image Name="000.png" />
@@ -1236,6 +1258,7 @@
                 <Image Name="005.png" />
                 <Image Name="006.png" />
                 <Image Name="007.png" />
+                <PlistInfo Name="Machete.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianWalkMendoza">
                 <Image Name="000.png" />
@@ -1246,6 +1269,7 @@
                 <Image Name="005.png" />
                 <Image Name="006.png" />
                 <Image Name="007.png" />
+                <PlistInfo Name="Mendoza.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianWalkPipe">
                 <Image Name="000.png" />
@@ -1256,6 +1280,7 @@
                 <Image Name="005.png" />
                 <Image Name="006.png" />
                 <Image Name="007.png" />
+                <PlistInfo Name="Pipe.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianWalkShotgun">
                 <Image Name="000.png" />
@@ -1266,6 +1291,7 @@
                 <Image Name="005.png" />
                 <Image Name="006.png" />
                 <Image Name="007.png" />
+                <PlistInfo Name="Shotgun.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianWalkSilencer">
                 <Image Name="000.png" />
@@ -1276,6 +1302,7 @@
                 <Image Name="005.png" />
                 <Image Name="006.png" />
                 <Image Name="007.png" />
+                <PlistInfo Name="Silencer.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprColombianWalkUnarmed">
                 <Image Name="000.png" />
@@ -1286,6 +1313,7 @@
                 <Image Name="005.png" />
                 <Image Name="006.png" />
                 <Image Name="007.png" />
+                <PlistInfo Name="Unarmed.csi" Type="Plist" />
               </Folder>
             </Folder>
             <Folder Name="Dog">
@@ -6675,6 +6703,7 @@
               <Image Name="sprWoodWindowV002.png" />
               <File Name="sprZebraShard.gif" />
               <File Name="used img.txt" />
+              <PlistInfo Name="Walls.csi" Type="Plist" />
               <Image Name="whiteCorner.png" />
             </Folder>
           </Folder>
@@ -9577,6 +9606,7 @@
                   <Image Name="006.png" />
                   <Image Name="007.png" />
                   <Image Name="008.png" />
+                  <PlistInfo Name="Knife.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="KnifeFlameThrower">
                   <Image Name="000.png" />
@@ -9636,6 +9666,7 @@
                 <Folder Name="Machinegun">
                   <Image Name="000.png" />
                   <Image Name="001.png" />
+                  <PlistInfo Name="Machinegun.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Shotgun">
                   <Image Name="000.png" />
@@ -9668,6 +9699,7 @@
                   <Image Name="012.png" />
                   <Image Name="013.png" />
                   <Image Name="014.png" />
+                  <PlistInfo Name="Sniper.csi" Type="Plist" />
                 </Folder>
               </Folder>
               <Folder Name="Dead">
@@ -9726,6 +9758,7 @@
                 <Image Name="013.png" />
                 <Image Name="014.png" />
                 <Image Name="015.png" />
+                <PlistInfo Name="Leg.csi" Type="Plist" />
               </Folder>
               <Folder Name="Reload">
                 <Folder Name="Machinegun">
@@ -9743,6 +9776,7 @@
                   <Image Name="011.png" />
                   <Image Name="012.png" />
                   <Image Name="013.png" />
+                  <PlistInfo Name="Machinegun.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Shotgun">
                   <Image Name="000.png" />
@@ -9775,18 +9809,10 @@
                   <Image Name="012.png" />
                   <Image Name="013.png" />
                   <Image Name="014.png" />
+                  <PlistInfo Name="Sniper.csi" Type="Plist" />
                 </Folder>
               </Folder>
-              <Folder Name="sprNickeStandFlame">
-                <Image Name="000.png" />
-                <Image Name="001.png" />
-                <Image Name="002.png" />
-                <Image Name="003.png" />
-                <Image Name="004.png" />
-                <Image Name="005.png" />
-                <Image Name="006.png" />
-                <Image Name="007.png" />
-              </Folder>
+              <Folder Name="StandFlame" />
               <Folder Name="unused">
                 <Folder Name="sprNickeBrokenIdle">
                   <Image Name="000.png" />
@@ -9911,6 +9937,7 @@
                   <Image Name="005.png" />
                   <Image Name="006.png" />
                   <Image Name="007.png" />
+                  <PlistInfo Name="Knife.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="KnifeFlameThrower">
                   <Image Name="000.png" />
@@ -9971,6 +9998,7 @@
                   <Image Name="005.png" />
                   <Image Name="006.png" />
                   <Image Name="007.png" />
+                  <PlistInfo Name="Machinegun.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Shotgun">
                   <Image Name="000.png" />
@@ -10004,7 +10032,6 @@
                 </Folder>
                 <Image Name="Sniper000.png" />
               </Folder>
-              <PlistInfo Name="PlayerNicke.csi" Type="Plist" />
             </Folder>
             <Folder Name="PigButcher">
               <Folder Name="Attack">
@@ -11465,6 +11492,25 @@
               <Image Name="sprRatPrisonDeadBoss.png" />
             </Folder>
             <Folder Name="Son">
+              <Folder Name="Leg">
+                <Image Name="01.png" />
+                <Image Name="02.png" />
+                <Image Name="03.png" />
+                <Image Name="04.png" />
+                <Image Name="05.png" />
+                <Image Name="06.png" />
+                <Image Name="07.png" />
+                <Image Name="08.png" />
+                <Image Name="09.png" />
+                <Image Name="10.png" />
+                <Image Name="11.png" />
+                <Image Name="12.png" />
+                <Image Name="13.png" />
+                <Image Name="14.png" />
+                <Image Name="15.png" />
+                <Image Name="16.png" />
+                <PlistInfo Name="Leg.csi" Type="Plist" />
+              </Folder>
               <Folder Name="sprSonArm">
                 <Image Name="000.png" />
                 <Image Name="001.png" />
@@ -12107,6 +12153,7 @@
                 <Image Name="014.png" />
                 <Image Name="015.png" />
                 <Image Name="016.png" />
+                <PlistInfo Name="Roll.csi" Type="Plist" />
               </Folder>
               <Folder Name="sprSonShotgunAttackLSD">
                 <Image Name="000.png" />
@@ -13067,12 +13114,14 @@
                   <Image Name="001.png" />
                   <Image Name="002.png" />
                   <Image Name="003.png" />
+                  <PlistInfo Name="Barrel1.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Barrel2">
                   <Image Name="000.png" />
                   <Image Name="001.png" />
                   <Image Name="002.png" />
                   <Image Name="003.png" />
+                  <PlistInfo Name="Barrel2.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Bat">
                   <Image Name="000.png" />
@@ -13084,6 +13133,7 @@
                   <Image Name="006.png" />
                   <Image Name="007.png" />
                   <Image Name="008.png" />
+                  <PlistInfo Name="Bat.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Chain">
                   <Image Name="000.png" />
@@ -13095,6 +13145,7 @@
                   <Image Name="006.png" />
                   <Image Name="007.png" />
                   <Image Name="008.png" />
+                  <PlistInfo Name="Chain.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Club">
                   <Image Name="000.png" />
@@ -13106,10 +13157,12 @@
                   <Image Name="006.png" />
                   <Image Name="007.png" />
                   <Image Name="008.png" />
+                  <PlistInfo Name="Club.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Kalashnikov">
                   <Image Name="000.png" />
                   <Image Name="001.png" />
+                  <PlistInfo Name="Kalashnikov.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Knife">
                   <Image Name="000.png" />
@@ -13121,18 +13174,22 @@
                   <Image Name="006.png" />
                   <Image Name="007.png" />
                   <Image Name="008.png" />
+                  <PlistInfo Name="Knife.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="M16">
                   <Image Name="000.png" />
                   <Image Name="001.png" />
+                  <PlistInfo Name="M16.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Magnum">
                   <Image Name="000.png" />
                   <Image Name="001.png" />
+                  <PlistInfo Name="Magnum.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Nmm">
                   <Image Name="000.png" />
                   <Image Name="001.png" />
+                  <PlistInfo Name="9mm.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Pipe">
                   <Image Name="000.png" />
@@ -13144,6 +13201,7 @@
                   <Image Name="006.png" />
                   <Image Name="007.png" />
                   <Image Name="008.png" />
+                  <PlistInfo Name="Pipe.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Punch">
                   <Image Name="000.png" />
@@ -13153,6 +13211,7 @@
                   <Image Name="004.png" />
                   <Image Name="005.png" />
                   <Image Name="006.png" />
+                  <PlistInfo Name="Punch.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Shotgun">
                   <Image Name="000.png" />
@@ -13168,14 +13227,17 @@
                   <Image Name="010.png" />
                   <Image Name="011.png" />
                   <Image Name="012.png" />
+                  <PlistInfo Name="Shotgun.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Silencer">
                   <Image Name="000.png" />
                   <Image Name="001.png" />
+                  <PlistInfo Name="Silencer.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Uzi">
                   <Image Name="000.png" />
                   <Image Name="001.png" />
+                  <PlistInfo Name="Uzi.csi" Type="Plist" />
                 </Folder>
               </Folder>
               <Folder Name="Call">
@@ -13316,6 +13378,7 @@
                   <Image Name="008.png" />
                   <Image Name="009.png" />
                   <Image Name="010.png" />
+                  <PlistInfo Name="9mm.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Barrel">
                   <Image Name="000.png" />
@@ -13329,6 +13392,7 @@
                   <Image Name="008.png" />
                   <Image Name="009.png" />
                   <Image Name="010.png" />
+                  <PlistInfo Name="Barrel.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Kalashnikov">
                   <Image Name="000.png" />
@@ -13342,6 +13406,7 @@
                   <Image Name="008.png" />
                   <Image Name="009.png" />
                   <Image Name="010.png" />
+                  <PlistInfo Name="Kalashnikov.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="M16">
                   <Image Name="000.png" />
@@ -13355,6 +13420,7 @@
                   <Image Name="008.png" />
                   <Image Name="009.png" />
                   <Image Name="010.png" />
+                  <PlistInfo Name="M16.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Magnum">
                   <Image Name="000.png" />
@@ -13371,6 +13437,7 @@
                   <Image Name="011.png" />
                   <Image Name="012.png" />
                   <Image Name="013.png" />
+                  <PlistInfo Name="Magnum.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Shotgun">
                   <Image Name="000.png" />
@@ -13380,6 +13447,7 @@
                   <Image Name="004.png" />
                   <Image Name="005.png" />
                   <Image Name="006.png" />
+                  <PlistInfo Name="Shotgun.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Silencer">
                   <Image Name="000.png" />
@@ -13393,6 +13461,7 @@
                   <Image Name="008.png" />
                   <Image Name="009.png" />
                   <Image Name="010.png" />
+                  <PlistInfo Name="Silencer.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Uzi">
                   <Image Name="000.png" />
@@ -13406,6 +13475,7 @@
                   <Image Name="008.png" />
                   <Image Name="009.png" />
                   <Image Name="010.png" />
+                  <PlistInfo Name="Uzi.csi" Type="Plist" />
                 </Folder>
               </Folder>
               <Folder Name="Dropjacket">
@@ -13419,6 +13489,7 @@
                 <Image Name="007.png" />
                 <Image Name="008.png" />
                 <Image Name="009.png" />
+                <PlistInfo Name="Transfiguration.csi" Type="Plist" />
               </Folder>
               <Folder Name="Givecard">
                 <Image Name="000.png" />
@@ -13483,6 +13554,7 @@
                 <Image Name="000.png" />
                 <Image Name="001.png" />
                 <Image Name="002.png" />
+                <PlistInfo Name="Jacketdrop.csi" Type="Plist" />
               </Folder>
               <Folder Name="Kill">
                 <Folder Name="Bat">
@@ -13653,6 +13725,7 @@
                 <Image Name="013.png" />
                 <Image Name="014.png" />
                 <Image Name="015.png" />
+                <PlistInfo Name="Leg.csi" Type="Plist" />
               </Folder>
               <Folder Name="Pickup">
                 <Image Name="000.png" />
@@ -13776,6 +13849,7 @@
                   <Image Name="005.png" />
                   <Image Name="006.png" />
                   <Image Name="007.png" />
+                  <PlistInfo Name="Barrel.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Bat">
                   <Image Name="000.png" />
@@ -13786,6 +13860,7 @@
                   <Image Name="005.png" />
                   <Image Name="006.png" />
                   <Image Name="007.png" />
+                  <PlistInfo Name="Bat.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Chain">
                   <Image Name="000.png" />
@@ -13796,6 +13871,7 @@
                   <Image Name="005.png" />
                   <Image Name="006.png" />
                   <Image Name="007.png" />
+                  <PlistInfo Name="Chain.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Club">
                   <Image Name="000.png" />
@@ -13806,6 +13882,7 @@
                   <Image Name="005.png" />
                   <Image Name="006.png" />
                   <Image Name="007.png" />
+                  <PlistInfo Name="Club.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Kalashnikov">
                   <Image Name="000.png" />
@@ -13816,6 +13893,7 @@
                   <Image Name="005.png" />
                   <Image Name="006.png" />
                   <Image Name="007.png" />
+                  <PlistInfo Name="Kalashnikov.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Knife">
                   <Image Name="000.png" />
@@ -13826,6 +13904,7 @@
                   <Image Name="005.png" />
                   <Image Name="006.png" />
                   <Image Name="007.png" />
+                  <PlistInfo Name="Knife.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="M16">
                   <Image Name="000.png" />
@@ -13836,6 +13915,7 @@
                   <Image Name="005.png" />
                   <Image Name="006.png" />
                   <Image Name="007.png" />
+                  <PlistInfo Name="M16.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Magnum">
                   <Image Name="000.png" />
@@ -13846,6 +13926,7 @@
                   <Image Name="005.png" />
                   <Image Name="006.png" />
                   <Image Name="007.png" />
+                  <PlistInfo Name="Magnum.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Nmm">
                   <Image Name="000.png" />
@@ -13856,6 +13937,7 @@
                   <Image Name="005.png" />
                   <Image Name="006.png" />
                   <Image Name="007.png" />
+                  <PlistInfo Name="Nmm.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Pipe">
                   <Image Name="000.png" />
@@ -13866,6 +13948,7 @@
                   <Image Name="005.png" />
                   <Image Name="006.png" />
                   <Image Name="007.png" />
+                  <PlistInfo Name="Pipe.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Shotgun">
                   <Image Name="000.png" />
@@ -13876,6 +13959,7 @@
                   <Image Name="005.png" />
                   <Image Name="006.png" />
                   <Image Name="007.png" />
+                  <PlistInfo Name="Shotgun.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Silencer">
                   <Image Name="000.png" />
@@ -13886,6 +13970,7 @@
                   <Image Name="005.png" />
                   <Image Name="006.png" />
                   <Image Name="007.png" />
+                  <PlistInfo Name="Silencer.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Unarmed">
                   <Image Name="000.png" />
@@ -13896,6 +13981,7 @@
                   <Image Name="005.png" />
                   <Image Name="006.png" />
                   <Image Name="007.png" />
+                  <PlistInfo Name="Unarmed.csi" Type="Plist" />
                 </Folder>
                 <Folder Name="Uzi">
                   <Image Name="000.png" />
@@ -13906,6 +13992,7 @@
                   <Image Name="005.png" />
                   <Image Name="006.png" />
                   <Image Name="007.png" />
+                  <PlistInfo Name="Uzi.csi" Type="Plist" />
                 </Folder>
               </Folder>
               <Folder Name="Write">
@@ -13933,7 +14020,6 @@
                 <Image Name="008.png" />
                 <Image Name="009.png" />
               </Folder>
-              <PlistInfo Name="PlayerWriter.csi" Type="Plist" />
             </Folder>
             <Folder Name="Writer2">
               <Folder Name="Attack">
@@ -14819,6 +14905,16 @@
             <Image Name="Uzi.png" />
             <PlistInfo Name="Weapons.csi" Type="Plist" />
           </Folder>
+        </Folder>
+        <Folder Name="StandFlame">
+          <Image Name="000.png" />
+          <Image Name="001.png" />
+          <Image Name="002.png" />
+          <Image Name="003.png" />
+          <Image Name="004.png" />
+          <Image Name="005.png" />
+          <Image Name="006.png" />
+          <Image Name="007.png" />
         </Folder>
         <Folder Name="Ui">
           <Project Name="MenuLayer.csd" Type="Layer" />

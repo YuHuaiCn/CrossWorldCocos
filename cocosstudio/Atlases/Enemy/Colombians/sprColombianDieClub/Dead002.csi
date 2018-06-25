@@ -1,0 +1,26 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Dead002" Type="Plist" ID="50f70746-8c00-4899-bf23-b1c1bac5931e" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieClub/000.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieClub/001.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieClub/002.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieClub/003.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieClub/004.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieClub/005.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieClub/006.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieClub/007.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieClub/008.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieClub/009.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieClub/010.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieClub/011.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieClub/012.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieClub/013.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieClub/014.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieClub/015.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieClub/016.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianDieClub/017.png" />
+    </ImageFiles>
+    <MaxSize Width="2048" Height="64" />
+  </Content>
+</PlistInfoProjectFile>

@@ -1,0 +1,17 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Transfiguration" Type="Plist" ID="6302103f-bbea-4380-80d2-e92146502478" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Writer/Dropjacket/001.png" />
+      <FilePathData Path="Atlases/Player/Writer/Dropjacket/002.png" />
+      <FilePathData Path="Atlases/Player/Writer/Dropjacket/003.png" />
+      <FilePathData Path="Atlases/Player/Writer/Dropjacket/004.png" />
+      <FilePathData Path="Atlases/Player/Writer/Dropjacket/005.png" />
+      <FilePathData Path="Atlases/Player/Writer/Dropjacket/006.png" />
+      <FilePathData Path="Atlases/Player/Writer/Dropjacket/007.png" />
+      <FilePathData Path="Atlases/Player/Writer/Dropjacket/008.png" />
+      <FilePathData Path="Atlases/Player/Writer/Dropjacket/009.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="64" />
+  </Content>
+</PlistInfoProjectFile>

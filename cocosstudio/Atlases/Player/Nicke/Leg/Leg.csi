@@ -1,0 +1,24 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Leg" Type="Plist" ID="b996ace1-7613-4704-b8ea-7ee9655e26ca" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Nicke/Leg/000.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Leg/001.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Leg/002.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Leg/003.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Leg/004.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Leg/005.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Leg/006.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Leg/007.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Leg/008.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Leg/009.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Leg/010.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Leg/011.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Leg/012.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Leg/013.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Leg/014.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Leg/015.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="32" />
+  </Content>
+</PlistInfoProjectFile>

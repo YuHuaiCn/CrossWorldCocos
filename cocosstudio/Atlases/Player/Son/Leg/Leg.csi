@@ -1,0 +1,24 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Leg" Type="Plist" ID="038b9c72-678d-432c-b05d-6c3c4635d307" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Son/Leg/01.png" />
+      <FilePathData Path="Atlases/Player/Son/Leg/02.png" />
+      <FilePathData Path="Atlases/Player/Son/Leg/03.png" />
+      <FilePathData Path="Atlases/Player/Son/Leg/04.png" />
+      <FilePathData Path="Atlases/Player/Son/Leg/05.png" />
+      <FilePathData Path="Atlases/Player/Son/Leg/06.png" />
+      <FilePathData Path="Atlases/Player/Son/Leg/07.png" />
+      <FilePathData Path="Atlases/Player/Son/Leg/08.png" />
+      <FilePathData Path="Atlases/Player/Son/Leg/09.png" />
+      <FilePathData Path="Atlases/Player/Son/Leg/10.png" />
+      <FilePathData Path="Atlases/Player/Son/Leg/11.png" />
+      <FilePathData Path="Atlases/Player/Son/Leg/12.png" />
+      <FilePathData Path="Atlases/Player/Son/Leg/13.png" />
+      <FilePathData Path="Atlases/Player/Son/Leg/14.png" />
+      <FilePathData Path="Atlases/Player/Son/Leg/15.png" />
+      <FilePathData Path="Atlases/Player/Son/Leg/16.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

@@ -1,0 +1,18 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Mendoza" Type="Plist" ID="b6c97b14-d57c-45c1-acf9-c5f615fca09f" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianSearchMendoza/000.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianSearchMendoza/001.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianSearchMendoza/002.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianSearchMendoza/003.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianSearchMendoza/004.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianSearchMendoza/005.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianSearchMendoza/006.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianSearchMendoza/007.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianSearchMendoza/008.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianSearchMendoza/009.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="32" />
+  </Content>
+</PlistInfoProjectFile>

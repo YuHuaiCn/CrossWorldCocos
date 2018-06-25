@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Atlases/Enemy/Colombians/sprColombianAttackShotgun/000.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{45,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{45,24}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianAttackShotgun/001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{45,0},{45,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{45,24}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianAttackShotgun/002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{90,0},{45,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{45,24}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianAttackShotgun/003.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{135,0},{45,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{45,24}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianAttackShotgun/004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{180,0},{45,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{45,24}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianAttackShotgun/005.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{225,0},{45,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{45,24}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianAttackShotgun/006.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{270,0},{45,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{45,24}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianAttackShotgun/007.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{315,0},{45,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{45,24}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianAttackShotgun/008.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{360,0},{45,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{45,24}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianAttackShotgun/009.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{405,0},{45,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{45,24}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianAttackShotgun/010.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{450,0},{45,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{45,24}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianAttackShotgun/011.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{495,0},{45,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{45,24}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianAttackShotgun/012.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{540,0},{45,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{45,24}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Shotgun.png</string>
+			<key>realTextureFileName</key>
+			<string>Shotgun.png</string>
+			<key>size</key>
+			<string>{585,24}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>585</integer>
+			<key>height</key>
+			<integer>24</integer>
+		</dict>
+	</dict>
+</plist>

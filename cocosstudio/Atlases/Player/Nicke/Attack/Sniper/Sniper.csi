@@ -1,0 +1,23 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Sniper" Type="Plist" ID="1d96aa78-f1a2-486e-a43a-6f3b248c4b01" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Nicke/Attack/Sniper/000.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Attack/Sniper/001.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Attack/Sniper/002.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Attack/Sniper/003.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Attack/Sniper/004.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Attack/Sniper/005.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Attack/Sniper/006.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Attack/Sniper/007.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Attack/Sniper/008.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Attack/Sniper/009.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Attack/Sniper/010.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Attack/Sniper/011.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Attack/Sniper/012.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Attack/Sniper/013.png" />
+      <FilePathData Path="Atlases/Player/Nicke/Attack/Sniper/014.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

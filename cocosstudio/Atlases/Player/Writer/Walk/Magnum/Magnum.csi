@@ -1,0 +1,16 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Magnum" Type="Plist" ID="13e94202-fa72-4636-98ff-5de10fc1a500" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Writer/Walk/Magnum/000.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Magnum/001.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Magnum/002.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Magnum/003.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Magnum/004.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Magnum/005.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Magnum/006.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Magnum/007.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

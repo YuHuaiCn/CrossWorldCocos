@@ -1,0 +1,16 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Silencer" Type="Plist" ID="9cd569a1-e16a-4b24-b120-68b36ddf7d01" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkSilencer/000.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkSilencer/001.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkSilencer/002.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkSilencer/003.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkSilencer/004.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkSilencer/005.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkSilencer/006.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianWalkSilencer/007.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

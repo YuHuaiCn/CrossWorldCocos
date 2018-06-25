@@ -1,0 +1,16 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Barrel" Type="Plist" ID="cbedcf3e-08fb-44d9-abf9-7fd8084e1cac" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Writer/Walk/Barrel/000.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Barrel/001.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Barrel/002.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Barrel/003.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Barrel/004.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Barrel/005.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Barrel/006.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Barrel/007.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

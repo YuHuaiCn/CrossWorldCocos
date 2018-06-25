@@ -1,0 +1,24 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Leg" Type="Plist" ID="fe6a34da-96c7-482b-9adf-cc18d2600d91" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Writer/Leg/000.png" />
+      <FilePathData Path="Atlases/Player/Writer/Leg/001.png" />
+      <FilePathData Path="Atlases/Player/Writer/Leg/002.png" />
+      <FilePathData Path="Atlases/Player/Writer/Leg/003.png" />
+      <FilePathData Path="Atlases/Player/Writer/Leg/004.png" />
+      <FilePathData Path="Atlases/Player/Writer/Leg/005.png" />
+      <FilePathData Path="Atlases/Player/Writer/Leg/006.png" />
+      <FilePathData Path="Atlases/Player/Writer/Leg/007.png" />
+      <FilePathData Path="Atlases/Player/Writer/Leg/008.png" />
+      <FilePathData Path="Atlases/Player/Writer/Leg/009.png" />
+      <FilePathData Path="Atlases/Player/Writer/Leg/010.png" />
+      <FilePathData Path="Atlases/Player/Writer/Leg/011.png" />
+      <FilePathData Path="Atlases/Player/Writer/Leg/012.png" />
+      <FilePathData Path="Atlases/Player/Writer/Leg/013.png" />
+      <FilePathData Path="Atlases/Player/Writer/Leg/014.png" />
+      <FilePathData Path="Atlases/Player/Writer/Leg/015.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="32" />
+  </Content>
+</PlistInfoProjectFile>

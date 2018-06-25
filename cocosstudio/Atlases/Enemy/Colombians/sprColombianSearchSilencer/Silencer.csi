@@ -1,0 +1,18 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Silencer" Type="Plist" ID="0805e189-42aa-4ebc-b70b-26869c5e6532" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianSearchSilencer/000.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianSearchSilencer/001.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianSearchSilencer/002.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianSearchSilencer/003.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianSearchSilencer/004.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianSearchSilencer/005.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianSearchSilencer/006.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianSearchSilencer/007.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianSearchSilencer/008.png" />
+      <FilePathData Path="Atlases/Enemy/Colombians/sprColombianSearchSilencer/009.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="32" />
+  </Content>
+</PlistInfoProjectFile>

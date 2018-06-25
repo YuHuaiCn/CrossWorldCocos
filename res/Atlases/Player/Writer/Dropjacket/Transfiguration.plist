@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Atlases/Player/Writer/Dropjacket/001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{32,50}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{32,50}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Dropjacket/002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{32,0},{32,50}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{32,50}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Dropjacket/003.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{64,0},{32,50}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{32,50}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Dropjacket/004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{96,0},{32,50}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{32,50}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Dropjacket/005.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{128,0},{32,50}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{32,50}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Dropjacket/006.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{160,0},{32,50}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{32,50}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Dropjacket/007.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{192,0},{32,50}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{32,50}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Dropjacket/008.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{224,0},{32,50}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{32,50}</string>
+			</dict>
+			<key>Atlases/Player/Writer/Dropjacket/009.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{256,0},{32,50}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{32,50}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Transfiguration.png</string>
+			<key>realTextureFileName</key>
+			<string>Transfiguration.png</string>
+			<key>size</key>
+			<string>{288,50}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>288</integer>
+			<key>height</key>
+			<integer>50</integer>
+		</dict>
+	</dict>
+</plist>

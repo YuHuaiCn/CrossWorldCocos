@@ -1,0 +1,16 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Knife" Type="Plist" ID="fc6dd74b-fc80-4727-aac1-b5c27aeb576e" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Atlases/Player/Writer/Walk/Knife/000.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Knife/001.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Knife/002.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Knife/003.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Knife/004.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Knife/005.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Knife/006.png" />
+      <FilePathData Path="Atlases/Player/Writer/Walk/Knife/007.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="64" />
+  </Content>
+</PlistInfoProjectFile>

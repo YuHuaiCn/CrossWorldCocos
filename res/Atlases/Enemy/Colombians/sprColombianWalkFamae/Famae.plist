@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Atlases/Enemy/Colombians/sprColombianWalkFamae/000.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{60,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{60,24}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianWalkFamae/001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{60,0},{60,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{60,24}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianWalkFamae/002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{120,0},{60,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{60,24}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianWalkFamae/003.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{180,0},{60,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{60,24}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianWalkFamae/004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{240,0},{60,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{60,24}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianWalkFamae/005.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{300,0},{60,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{60,24}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianWalkFamae/006.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{360,0},{60,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{60,24}</string>
+			</dict>
+			<key>Atlases/Enemy/Colombians/sprColombianWalkFamae/007.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{420,0},{60,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{60,24}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Famae.png</string>
+			<key>realTextureFileName</key>
+			<string>Famae.png</string>
+			<key>size</key>
+			<string>{480,24}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>480</integer>
+			<key>height</key>
+			<integer>24</integer>
+		</dict>
+	</dict>
+</plist>
